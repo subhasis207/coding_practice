@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://en.wikipedia.org/wiki/Catalan_number -->
+<html lang="en" dir="ltr" class="client-js ve-not-available"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Catalan number - Wikipedia, the free encyclopedia</title>
+<meta name="generator" content="MediaWiki 1.24wmf6">
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Catalan_number">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit">
+<link rel="edit" title="Edit this page" href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit">
+<link rel="apple-touch-icon" href="http://bits.wikimedia.org/apple-touch/wikipedia.png">
+<link rel="shortcut icon" href="http://bits.wikimedia.org/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://en.wikipedia.org/w/api.php?action=rsd">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="http://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=atom">
+<link rel="canonical" href="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan number - Wikipedia, the free encyclopedia.htm">
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2CrefToolbar%2Cteahouse%7Cext.math.styles%7Cext.rtlcite%2Cwikihiero%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles%7Cwikibase.client.init&only=styles&skin=vector&*">
+<style>
+@-webkit-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-moz-transform:translateY(-20px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-o-transform:translateY(-20px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframes centralAuthPPersonalAnimation{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.centralAuthPPersonalAnimation{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:centralAuthPPersonalAnimation;-moz-animation-name:centralAuthPPersonalAnimation;-o-animation-name:centralAuthPPersonalAnimation;animation-name:centralAuthPPersonalAnimation}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:0dcacc990dd02e7db9669ab3090b80f1 */
+.mw-editsection{white-space:nowrap; unicode-bidi:-moz-isolate;unicode-bidi:-webkit-isolate;unicode-bidi:isolate}.mw-editsection-divider{color:#555}.ve-tabmessage-appendix{font-size:0.7em;vertical-align:top;line-height:1.43em;padding-left:0.5em; background-image:none !important;display:inline !important}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:50c6a67a11952da7c9e5053046d794ee */
+.uls-menu a{cursor:pointer}.uls-menu.callout .caret-before{border-top:20px solid transparent;border-right:20px solid #C9C9C9;border-bottom:20px solid transparent;display:inline-block;left:-21px;top:30px;position:absolute}.uls-menu.callout .caret-after{border-top:20px solid transparent;border-right:20px solid #FCFCFC;border-bottom:20px solid transparent;display:inline-block;left:-20px;top:30px;position:absolute}.uls-ui-languages button{width:23%;text-overflow:ellipsis;margin-right:4%}button.uls-more-languages{width:auto}.settings-title{font-size:11pt}.settings-text{color:#555555;font-size:9pt}div.display-settings-block:hover .settings-text{color:#252525}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:22d1681fa868b4ff4fbcb1ec1e58a9ea */
+.tipsy{padding:5px;position:absolute;z-index:100000;cursor:default}.tipsy-inner{padding:5px 8px 4px 8px; background-color:#ffffff;border:solid 1px #a7d7f9;color:black;max-width:15em;border-radius:4px; }.tipsy-arrow{position:absolute;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALAgMAAADUwp+1AAAACVBMVEX5+fmn1/n///9s6BFKAAAAAXRSTlMAQObYZgAAACpJREFUCB1jZBD4wMiQMoeRcUU4I9uSaYxSE54xZjn8AtMgPkgcJA9UBwAeDw1Qrb3pVAAAAABJRU5ErkJggg==) no-repeat top left;background:url(//bits.wikimedia.org/static-1.24wmf6/resources/src/jquery.tipsy/images/tipsy.png?2014-05-22T16:20:00Z) no-repeat top left!ie;width:11px;height:6px} .tipsy-n .tipsy-arrow{top:0px;left:50%;margin-left:-5px} .tipsy-nw .tipsy-arrow{top:1px;left:10px} .tipsy-ne .tipsy-arrow{top:1px;right:10px} .tipsy-s .tipsy-arrow{bottom:0px;left:50%;margin-left:-5px;background-position:bottom left} .tipsy-sw .tipsy-arrow{bottom:0px;left:10px;background-position:bottom left} .tipsy-se .tipsy-arrow{bottom:0px;right:10px;background-position:bottom left} .tipsy-e .tipsy-arrow{top:50%;margin-top:-5px;right:1px;width:5px;height:11px;background-position:top right} .tipsy-w .tipsy-arrow{top:50%;margin-top:-5px;left:0px;width:6px;height:11px}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:6b5016e7d66f05f207d0a8544ef68861 */
+@media print{#centralNotice{display:none}}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:ddb0c98a055632ae8e349c9cf48ac703 */</style><style>
+.cite-accessibility-label{position:absolute !important; top:-99999px;clip:rect(1px 1px 1px 1px); clip:rect(1px,1px,1px,1px);padding:0 !important;border:0 !important;height:1px !important;width:1px !important;overflow:hidden}.mw-cite-backlink,.cite-accessibility-label{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:a59b70abe6ecaa39388bb79ebc509cb0 */
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(//bits.wikimedia.org/static-1.24wmf6/resources/src/mediawiki.action/images/green-checkmark.png?2014-05-22T16:20:00Z)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:856678458e1cfc2073b23f8f873941d0 */
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:869aa9133c31e6040d4830b259da96a8 */
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px -1px 0 0} html > body .suggestions{margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:9f9511aa4ef920d34591113e825e6a1e */
+.wp-teahouse-question-form{position:absolute;margin-left:auto;margin-right:auto;background-color:#f4f3f0;border:1px solid #a7d7f9;padding:1em}#wp-th-question-ask{float:right}.wp-teahouse-ask a.external{background-image:none !important}.wp-teahouse-respond-form{position:absolute;margin-left:auto;margin-right:auto;background-color:#f4f3f0;border:1px solid #a7d7f9;padding:1em}.wp-th-respond{float:right}.wp-teahouse-respond a.external{background-image:none !important}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:8614dfa7ef847fc9bfcc2d1c9f720197 */
+.referencetooltip{position:absolute;list-style:none;list-style-image:none;opacity:0;font-size:10px;margin:0;z-index:5;padding:0}.referencetooltip li{border:#080086 2px solid;max-width:260px;padding:10px 8px 13px 8px;margin:0px;background-color:#F7F7F7;box-shadow:2px 4px 2px rgba(0,0,0,0.3);-moz-box-shadow:2px 4px 2px rgba(0,0,0,0.3);-webkit-box-shadow:2px 4px 2px rgba(0,0,0,0.3)}.referencetooltip li+li{margin-left:7px;margin-top:-2px;border:0;padding:0;height:3px;width:0px;background-color:transparent;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;border-top:12px #080086 solid;border-right:7px transparent solid;border-left:7px transparent solid}.referencetooltip>li+li::after{content:'';border-top:8px #F7F7F7 solid;border-right:5px transparent solid;border-left:5px transparent solid;margin-top:-12px;margin-left:-5px;z-index:1;height:0px;width:0px;display:block}.client-js body .referencetooltip li li{border:none;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;height:auto;width:auto;margin:auto;padding:0;position:static}.RTflipped{padding-top:13px}.referencetooltip.RTflipped li+li{position:absolute;top:2px;border-top:0;border-bottom:12px #080086 solid}.referencetooltip.RTflipped li+li::after{border-top:0;border-bottom:8px #F7F7F7 solid;position:absolute;margin-top:7px}.RTsettings{float:right;height:16px;width:16px;cursor:pointer;background-image:url(//upload.wikimedia.org/wikipedia/commons/e/ed/Cog.png);margin-top:-9px;margin-right:-7px;-webkit-transition:opacity 0.15s;-moz-transition:opacity 0.15s;-o-transition:opacity 0.15s;-ms-transition:opacity 0.15s;transition:opacity 0.15s;opacity:0.6;filter:alpha(opacity=60)}.RTsettings:hover{opacity:1;filter:alpha(opacity=100)}.RTTarget{border:#080086 2px solid}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:0f4d07a31beacf248a470098a9070e70 */
+#container{position:relative;min-height:100%}#container,video{width:100%;height:100%}#playerContainer{overflow:hidden;position:relative;height:100%;background:#000}#videoHolder{position:relative;overflow:hidden}.fullscreen #playerContainer{position:absolute !important;width:100% !important;height:100%! important;z-index:9999;min-height:100%;top:0;left:0;margin:0}.mwEmbedPlayer{width:100%;height:100%;overflow:hidden;position:absolute;top:0;left:0}.modal_editor{ left:10px;top:10px;right:10px;bottom:10px;position:fixed;z-index:100}.displayHTML a:visited{color:white}.loadingSpinner{width:32px;height:32px;display:block;padding:0px;background-image:url(//bits.wikimedia.org/static-1.24wmf6/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/loading_ani.gif?2014-05-22T16:23:20Z)}.mw-imported-resource{border:thin solid black}.kaltura-icon{background-image:url(//bits.wikimedia.org/static-1.24wmf6/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/kaltura_logo_sm_transparent.png?2014-05-22T16:23:20Z) !important;background-repeat:no-repeat;display:block;height:12px;width:12px;margin-top:2px !important;margin-left:3px !important}.mw-fullscreen-overlay{background:rgb(0,0,0) none repeat scroll 0% 0%;position:fixed;top:0pt;left:0pt;width:100%;height:100%;-moz-background-clip:border;-moz-background-origin:padding;-moz-background-inline-policy:continuous} .play-btn-large{width:70px;height:53px;background :url(//bits.wikimedia.org/static-1.24wmf6/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/player_big_play_button.png?2014-05-22T16:23:20Z);position :absolute;cursor :pointer;border :none !important;z-index :1}.play-btn-large:hover{background :url(//bits.wikimedia.org/static-1.24wmf6/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/player_big_play_button_hover.png?2014-05-22T16:23:20Z)}.carouselContainer{position :absolute;width :100%;z-index :2}.carouselVideoTitle{position :absolute;top :0px;left :0px;width :100%;background :rgba(0,0,0,0.8);color :white;font-size :small;font-weight :bold;z-index :2}.carouselVideoTitleText{display :block;padding :10px 10px 10px 20px}.carouselTitleDuration{position :absolute;top :0px;right :0px;padding :2px;background-color :#5A5A5A;color :#D9D9D9;font-size :smaller;z-index :2}.carouselImgTitle{position :absolute;width :100%;text-align :center;color :white;font-size :small;background :rgba(0,0,0,0.4)}.carouselImgDuration{position :absolute;top :2px;left :2px;background :rgba( 0,0,0,0.7 );color :white;padding :1px 6px;font-size :small}.carouselPrevButton,.carouselNextButton{display :block;position :absolute;bottom:23px}.carouselPrevButton{left :5px}.carouselNextButton{right:6px}.alert-container{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background-image:linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-o-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-moz-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-webkit-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-ms-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.04,rgb(215,215,215)),color-stop(0.55,rgb(230,230,230)),color-stop(1,rgb(255,255,255)));margin:auto;position:absolute;top:0;left:0;right:0;bottom:0;max-width:80%;max-height:30%}.alert-title{background-color :#E6E6E6;padding :5px;border-bottom :1px solid #D1D1D1;font-weight :normal !important;font-size:14px !important;-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:3px;-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:3px }.alert-message{padding :5px;font-weight :normal !important;text-align:center;font-size:14px !important}.alert-buttons-container{text-align:center;padding-bottom:5px}.alert-button{background-color:#474747;color:white;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;padding:2px 10px;background-image:linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-o-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-moz-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-webkit-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-ms-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-webkit-gradient( linear,left bottom,left top,color-stop(0.04,rgb(25,25,25)),color-stop(0.55,rgb(47,47,47)),color-stop(0.68,rgb(71,71,71)) )}.alert-text{color :black !important}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:9338ab20d2343389b5482794d505476e */
+.mw-mmv-overlay{position:fixed;top:0px;left:0px;right:0px;bottom:0px;z-index:1000;background-color:#000000}body.mw-mmv-lightbox-open{overflow-y:auto}body.mw-mmv-lightbox-open #mw-page-base,body.mw-mmv-lightbox-open #mw-head-base,body.mw-mmv-lightbox-open #mw-navigation,body.mw-mmv-lightbox-open #mw-footer,body.mw-mmv-lightbox-open #content{ display:none}body.mw-mmv-lightbox-open > :not(.mw-mmv-overlay,.mw-mmv-wrapper){ display:none}.mw-mmv-view-expanded{display:inline-block;border:1px solid #dddddd;padding:5px;padding-left:34px;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB2ZXJzaW9uPSIxLjEiCiAgIHdpZHRoPSIxMDAlIgogICBoZWlnaHQ9IjEwMCUiCiAgIHZpZXdCb3g9IjAgMCAyOSAyNCIKICAgaWQ9IkxheWVyXzEiCiAgIHhtbDpzcGFjZT0icHJlc2VydmUiPjxtZXRhZGF0YQogICBpZD0ibWV0YWRhdGExMyI+PHJkZjpSREY+PGNjOldvcmsKICAgICAgIHJkZjphYm91dD0iIj48ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD48ZGM6dHlwZQogICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPjxkYzp0aXRsZT48L2RjOnRpdGxlPjwvY2M6V29yaz48L3JkZjpSREY+PC9tZXRhZGF0YT48ZGVmcwogICBpZD0iZGVmczExIiAvPgo8ZwogICBpZD0iZzMiPgoJPHBhdGgKICAgZD0iTSA4LDUuNiBWIDE2LjcgSCAyMi41IFYgNS42IEwgOCw1LjYgeiBtIDEyLjksOC44IEggOS41IGwgMy40LC00LjQgMC41LC0wLjIgMy4yLDMuNCAxLjcsLTEgMi42LDIuMiAwLDAgeiIKICAgaWQ9InBhdGg1IgogICBzdHlsZT0iZmlsbDojNzc3Nzc3IiAvPgoJPHBvbHlnb24KICAgcG9pbnRzPSI2LjUsNy4yIDYuNSwxOC40IDIyLjEsMTguNCAyMi4xLDE3LjYgNy4zLDE3LjYgNy4zLDcuMiAiCiAgIGlkPSJwb2x5Z29uNyIKICAgc3R5bGU9ImZpbGw6Izc3Nzc3NyIgLz4KPC9nPgo8L3N2Zz4=);background-image:url(//bits.wikimedia.org/static-1.24wmf6/extensions/MultimediaViewer/resources/mmv/img/expand.svg?2014-05-22T16:23:20Z)!ie;background-position:left;background-repeat:no-repeat}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:86220b102072b7de76f1657917c5f8e0 */
+#p-lang .uls-settings-trigger{background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAgCAMAAAAVMLmlAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAALpQTFRF////W1tbgICAWVlZgICAUVFRgICAWVlZhYWFUlJShYWFVFRUgYGBVVVVgYGBVVVVgICAVFRUVVVVVlZWgYGBgICAVFRUgYGBVFRUgICAgYGBVVVVVVVVgYGBVlZWgYGBVFRUgICAVFRUgICAVVVVgICAVlZWgICAVFRUgICAVVVVgICAVFRUgICAVlZWgICAVVVVgICAVVVVgICAVVVVgICAVVVVgICAVVVVgICAVVVVgICAVVVVgICA9Fa9bgAAADx0Uk5TAA4OFBQWFhcXGRlJSUtLWlpbXV9fYGFhZGRlZmlpa2twcIiIioqPj5GRn5+goKGh6+vv7/Dw+fn8/P7+YuRUVgAAAOlJREFUGBmNwcdWAgEURMFLFCUaAcWAEhQYHBRmCN3//1u+BYcVC6s4p2U3OLrrVxN7Xn7uELoH5w65Dx1g6JNnoLazfz++VnZehkZir4pQ3NjzBg5TwtgBhzFh6kDr294UobiykxZc7ezVdLyx8yrw6pM+8GjnDjsf7gj3/WpiJ7Vhl6OW3eC/mlKdo5teZSHNSoM24XqvTCHTvg0MdDIASpn08/6ZSlkJ6jMpLUBhLc3qKEwIIwUURoSJAs2ltC5AIZUWTbjcSulktJayCvCikx7wJG0VttrfEp5eLpfS4uLtgaOmVOeMP8BAM9RClMO9AAAAAElFTkSuQmCC) no-repeat right top;background:transparent url(//bits.wikimedia.org/static-1.24wmf6/extensions/UniversalLanguageSelector/resources/css/../images/cog-sprite.png?2014-05-22T16:25:00Z) no-repeat right top!ie;background-image:-webkit-linear-gradient(transparent,transparent),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNCIgaGVpZ2h0PSIzMiI+PGRlZnM+PHBhdGggZD0iTTEzLjU4MiA2LjYzMmgtMS4wNjRjLS4xMzMtLjUzOC0uMzU0LTEuMDY1LS42NDUtMS41NTJsLjc1LS43NWMuMTY0LS4xNjQuMTY0LS40MjkgMC0uNTkzbC0xLjM1OS0xLjM2Yy0uMTY0LS4xNjQtLjQzLS4xNjQtLjU5NCAwbC0uNzUuNzVjLS40OS0uMjk0LTEuMDEyLS41MTItMS41NTEtLjY0NXYtMS4wNjRjMC0uMjMxLS4xODctLjQxOC0uNDE5LS40MThoLTEuOTE4Yy0uMjMxIDAtLjQxOC4xODctLjQxOC40MTh2MS4wNjNjLS41NDEuMTM1LTEuMDYyLjM1Mi0xLjU1Mi42NDZsLS43NS0uNzVjLS4xNjQtLjE2NC0uNDI5LS4xNjQtLjU5MyAwbC0xLjM2IDEuMzZjLS4xNjQuMTY0LS4xNjQuNDI5IDAgLjU5M2wuNzUuNzVjLS4yOTIuNDg4LS40OTQgMS4wMTUtLjYyNyAxLjU1MWgtMS4wNjRjLS4yMzEgMC0uNDE4LjE4Ny0uNDE4LjQxOXYxLjkxOGMwIC4yMzEuMTg3LjQxOC40MTguNDE4aDEuMDQ2Yy4xMzQuNTQyLjM1MSAxLjA2Mi42NDUgMS41NTFsLS43NS43NWMtLjE2NC4xNjQtLjE2NC40MjkgMCAuNTkzbDEuMzYgMS4zNmMuMTY0LjE2NC40MjkuMTY0LjU5MyAwbC43NS0uNzVjLjQ5MS4yOTYgMS4wMS40OTMgMS41NTEuNjI3djEuMDYzYy4wMDEuMjMzLjE4OC40Mi40MTkuNDJoMS45MThjLjIzMSAwIC40MTktLjE4Ny40MTktLjQxOHYtMS4wNjNjLjU0Mi0uMTM0IDEuMDYxLS4zMzMgMS41NTEtLjYyN2wuNzUuNzVjLjE2NC4xNjQuNDMuMTY0LjU5NCAwbDEuMzU5LTEuMzZjLjE2NC0uMTY0LjE2NC0uNDI5IDAtLjU5M2wtLjc1LS43NWMuMjk1LS40ODkuNTEtMS4wMTMuNjQ1LTEuNTUxaDEuMDY0Yy4yMy0uMDAyLjQxOC0uMTg5LjQxOC0uNDJ2LTEuOTE4YzAtLjIzMi0uMTg4LS40MTgtLjQxOC0uNDE4em0tNi41ODIgNC4wMTJjLTEuNDYxIDAtMi42NDUtMS4xODQtMi42NDUtMi42NDRzMS4xODQtMi42NDQgMi42NDUtMi42NDQgMi42NDUgMS4xODQgMi42NDUgMi42NDQtMS4xODQgMi42NDQtMi42NDUgMi42NDR6IiBpZD0iYSIvPjwvZGVmcz48dXNlIHhsaW5rOmhyZWY9IiNhIiBmaWxsPSIjODA4MDgwIi8+PHVzZSB4bGluazpocmVmPSIjYSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxNikiIGZpbGw9IiM1NTUiLz48L3N2Zz4=);background-image:-webkit-linear-gradient(transparent,transparent),url(//bits.wikimedia.org/static-1.24wmf6/extensions/UniversalLanguageSelector/resources/css/../images/cog-sprite.svg?2014-05-22T16:25:00Z)!ie;background-image:linear-gradient(transparent,transparent),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNCIgaGVpZ2h0PSIzMiI+PGRlZnM+PHBhdGggZD0iTTEzLjU4MiA2LjYzMmgtMS4wNjRjLS4xMzMtLjUzOC0uMzU0LTEuMDY1LS42NDUtMS41NTJsLjc1LS43NWMuMTY0LS4xNjQuMTY0LS40MjkgMC0uNTkzbC0xLjM1OS0xLjM2Yy0uMTY0LS4xNjQtLjQzLS4xNjQtLjU5NCAwbC0uNzUuNzVjLS40OS0uMjk0LTEuMDEyLS41MTItMS41NTEtLjY0NXYtMS4wNjRjMC0uMjMxLS4xODctLjQxOC0uNDE5LS40MThoLTEuOTE4Yy0uMjMxIDAtLjQxOC4xODctLjQxOC40MTh2MS4wNjNjLS41NDEuMTM1LTEuMDYyLjM1Mi0xLjU1Mi42NDZsLS43NS0uNzVjLS4xNjQtLjE2NC0uNDI5LS4xNjQtLjU5MyAwbC0xLjM2IDEuMzZjLS4xNjQuMTY0LS4xNjQuNDI5IDAgLjU5M2wuNzUuNzVjLS4yOTIuNDg4LS40OTQgMS4wMTUtLjYyNyAxLjU1MWgtMS4wNjRjLS4yMzEgMC0uNDE4LjE4Ny0uNDE4LjQxOXYxLjkxOGMwIC4yMzEuMTg3LjQxOC40MTguNDE4aDEuMDQ2Yy4xMzQuNTQyLjM1MSAxLjA2Mi42NDUgMS41NTFsLS43NS43NWMtLjE2NC4xNjQtLjE2NC40MjkgMCAuNTkzbDEuMzYgMS4zNmMuMTY0LjE2NC40MjkuMTY0LjU5MyAwbC43NS0uNzVjLjQ5MS4yOTYgMS4wMS40OTMgMS41NTEuNjI3djEuMDYzYy4wMDEuMjMzLjE4OC40Mi40MTkuNDJoMS45MThjLjIzMSAwIC40MTktLjE4Ny40MTktLjQxOHYtMS4wNjNjLjU0Mi0uMTM0IDEuMDYxLS4zMzMgMS41NTEtLjYyN2wuNzUuNzVjLjE2NC4xNjQuNDMuMTY0LjU5NCAwbDEuMzU5LTEuMzZjLjE2NC0uMTY0LjE2NC0uNDI5IDAtLjU5M2wtLjc1LS43NWMuMjk1LS40ODkuNTEtMS4wMTMuNjQ1LTEuNTUxaDEuMDY0Yy4yMy0uMDAyLjQxOC0uMTg5LjQxOC0uNDJ2LTEuOTE4YzAtLjIzMi0uMTg4LS40MTgtLjQxOC0uNDE4em0tNi41ODIgNC4wMTJjLTEuNDYxIDAtMi42NDUtMS4xODQtMi42NDUtMi42NDRzMS4xODQtMi42NDQgMi42NDUtMi42NDQgMi42NDUgMS4xODQgMi42NDUgMi42NDQtMS4xODQgMi42NDQtMi42NDUgMi42NDR6IiBpZD0iYSIvPjwvZGVmcz48dXNlIHhsaW5rOmhyZWY9IiNhIiBmaWxsPSIjODA4MDgwIi8+PHVzZSB4bGluazpocmVmPSIjYSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxNikiIGZpbGw9IiM1NTUiLz48L3N2Zz4=);background-image:linear-gradient(transparent,transparent),url(//bits.wikimedia.org/static-1.24wmf6/extensions/UniversalLanguageSelector/resources/css/../images/cog-sprite.svg?2014-05-22T16:25:00Z)!ie;height:16px;width:14px;float:right;cursor:pointer}.skin-vector #p-lang .uls-settings-trigger{ margin-top:3px}#p-lang .uls-settings-trigger:hover{background-position:right -16px}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:71b21a5eb15a7bc6275c4a1fcf494afd */</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:ae3fa4570b5ac0c6cf7b3776c8ae4d6f */</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*">
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+<script src="./Catalan number - Wikipedia, the free encyclopedia_files/load.php"></script><script src="./Catalan number - Wikipedia, the free encyclopedia_files/load(1).php"></script><style title="spinjs"></style>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Catalan_number","wgTitle":"Catalan number","wgCurRevisionId":609633910,"wgRevisionId":609633910,"wgArticleId":216488,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Integer sequences","Factorial and binomial topics","Enumerative combinatorics","Articles containing proofs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Catalan_number","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":false,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.24wmf6/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgFlowTermsOfUseEdit":"By saving changes, you agree to our \u003Ca class=\"external text\" href=\"//wikimediafoundation.org/wiki/Terms_of_use\"\u003ETerms of Use\u003C/a\u003E and agree to irrevocably release your text under the \u003Ca rel=\"nofollow\" class=\"external text\" href=\"//creativecommons.org/licenses/by-sa/3.0\"\u003ECC BY-SA 3.0 License\u003C/a\u003E and \u003Ca class=\"external text\" href=\"//en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License\"\u003EGFDL\u003C/a\u003E","wgFlowTermsOfUseSummarize":"By clicking \"Summarize\", you agree to the terms of use for this wiki.","wgFlowTermsOfUseCloseTopic":"By clicking \"Close topic\", you agree to the terms of use for this wiki.","wgFlowTermsOfUseReopenTopic":"By clicking \"Reopen topic\", you agree to the terms of use for this wiki.","wgULSAcceptLanguageList":["en-us","en","hi"],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q270513"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,
+"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"multimediaviewer-enable":true,"visualeditor-enable":0,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"wikilove-enabled":1,"mathJax":false,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,
+"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":
+false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-refToolbar":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:369915ab579125627842c0da1e18ba20 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="http://meta.wikimedia.org/"><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.24wmf6/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Catalan_number skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+			<div id="mw-js-message" style="display:none;"></div>
+							<div id="siteNotice"><div id="centralNotice"></div><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Catalan number</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="http://en.wikipedia.org/wiki/Catalan_number#mw-navigation">navigation</a>, 					<a href="http://en.wikipedia.org/wiki/Catalan_number#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="hatnote">For names of numbers in Catalan, see <a href="http://en.wikipedia.org/wiki/List_of_numbers_in_various_languages#Occitano-Romance" title="List of numbers in various languages">List of numbers in various languages#Occitano-Romance</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Noncrossing_partitions_5.svg" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/220px-Noncrossing_partitions_5.svg.png" width="220" height="499" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noncrossing_partitions_5.svg/330px-Noncrossing_partitions_5.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noncrossing_partitions_5.svg/440px-Noncrossing_partitions_5.svg.png 2x" data-file-width="296" data-file-height="672"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Noncrossing_partitions_5.svg" class="internal" title="Enlarge"><img src="./Catalan number - Wikipedia, the free encyclopedia_files/magnify-clip.png" width="15" height="11" alt=""></a></div>
+The C<sub>5</sub>=42 <a href="http://en.wikipedia.org/wiki/Noncrossing_partition" title="Noncrossing partition">noncrossing partitions</a> of a 5-element set (below the other 10 of the <a href="http://en.wikipedia.org/wiki/Bell_number" title="Bell number">52</a> <a href="http://en.wikipedia.org/wiki/Partition_of_a_set" title="Partition of a set">partitions</a>)</div>
+</div>
+</div>
+<p>In <a href="http://en.wikipedia.org/wiki/Combinatorics" title="Combinatorics">combinatorial mathematics</a>, the <b>Catalan numbers</b> form a <a href="http://en.wikipedia.org/wiki/Sequence" title="Sequence">sequence</a> of <a href="http://en.wikipedia.org/wiki/Natural_number" title="Natural number">natural numbers</a> that occur in various <a href="http://en.wikipedia.org/wiki/Enumeration" title="Enumeration">counting problems</a>, often involving <a href="http://en.wikipedia.org/wiki/Recursion" title="Recursion">recursively</a> defined objects. They are named after the <a href="http://en.wikipedia.org/wiki/Belgium" title="Belgium">Belgian</a> <a href="http://en.wikipedia.org/wiki/Mathematician" title="Mathematician">mathematician</a> <a href="http://en.wikipedia.org/wiki/Eug%C3%A8ne_Charles_Catalan" title="Eugène Charles Catalan">Eugène Charles Catalan</a> (1814–1894).</p>
+<p>The <i>n</i>th Catalan number is given directly in terms of <a href="http://en.wikipedia.org/wiki/Binomial_coefficient" title="Binomial coefficient">binomial coefficients</a> by</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n = \frac{1}{n+1}{2n\choose n} = \frac{(2n)!}{(n+1)!\,n!} = \prod\limits_{k=2}^{n}\frac{n+k}{k} \qquad\mbox{ for }n\ge 0." src="./Catalan number - Wikipedia, the free encyclopedia_files/f526579b240d6912f8e5ac2068448d98.png"></dd>
+</dl>
+<p>The first Catalan numbers for <i>n</i> = 0, 1, 2, 3, … are</p>
+<dl>
+<dd><a href="http://en.wikipedia.org/wiki/1_(number)" title="1 (number)">1</a>, 1, <a href="http://en.wikipedia.org/wiki/2_(number)" title="2 (number)">2</a>, <a href="http://en.wikipedia.org/wiki/5_(number)" title="5 (number)">5</a>, <a href="http://en.wikipedia.org/wiki/14_(number)" title="14 (number)">14</a>, <a href="http://en.wikipedia.org/wiki/42_(number)" title="42 (number)">42</a>, <a href="http://en.wikipedia.org/wiki/132_(number)" title="132 (number)">132</a>, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, 35357670, 129644790, 477638700, 1767263190, 6564120420, 24466267020, 91482563640, 343059613650, 1289904147324, 4861946401452, … (sequence <span class="nowrap"><a href="http://oeis.org/A000108" class="extiw" title="oeis:A000108">A000108</a></span> in <a href="http://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences" title="On-Line Encyclopedia of Integer Sequences">OEIS</a>).</dd>
+</dl>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+<span class="toctoggle">&nbsp;[<a href="http://en.wikipedia.org/wiki/Catalan_number#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://en.wikipedia.org/wiki/Catalan_number#Properties"><span class="tocnumber">1</span> <span class="toctext">Properties</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://en.wikipedia.org/wiki/Catalan_number#Applications_in_combinatorics"><span class="tocnumber">2</span> <span class="toctext">Applications in combinatorics</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="http://en.wikipedia.org/wiki/Catalan_number#Proof_of_the_formula"><span class="tocnumber">3</span> <span class="toctext">Proof of the formula</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="http://en.wikipedia.org/wiki/Catalan_number#First_proof"><span class="tocnumber">3.1</span> <span class="toctext">First proof</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="http://en.wikipedia.org/wiki/Catalan_number#Second_proof"><span class="tocnumber">3.2</span> <span class="toctext">Second proof</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="http://en.wikipedia.org/wiki/Catalan_number#Third_proof"><span class="tocnumber">3.3</span> <span class="toctext">Third proof</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="http://en.wikipedia.org/wiki/Catalan_number#Fourth_proof"><span class="tocnumber">3.4</span> <span class="toctext">Fourth proof</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="http://en.wikipedia.org/wiki/Catalan_number#Fifth_proof"><span class="tocnumber">3.5</span> <span class="toctext">Fifth proof</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="http://en.wikipedia.org/wiki/Catalan_number#Hankel_matrix"><span class="tocnumber">4</span> <span class="toctext">Hankel matrix</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="http://en.wikipedia.org/wiki/Catalan_number#History"><span class="tocnumber">5</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="http://en.wikipedia.org/wiki/Catalan_number#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="http://en.wikipedia.org/wiki/Catalan_number#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="http://en.wikipedia.org/wiki/Catalan_number#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="http://en.wikipedia.org/wiki/Catalan_number#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Properties">Properties</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=1" title="Edit section: Properties">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>An alternative expression for <i>C</i><sub><i>n</i></sub> is</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n = {2n\choose n} - {2n\choose n-1} \quad\text{ for }n\ge 0," src="./Catalan number - Wikipedia, the free encyclopedia_files/e12109f44fc411bccd794c3b4cde74cc.png"></dd>
+</dl>
+<p>which is equivalent to the expression given above because <img class="mwe-math-fallback-png-inline tex" alt="\tbinom{2n}{n+1}=\tfrac{n}{n+1}\tbinom{2n}n" src="./Catalan number - Wikipedia, the free encyclopedia_files/d351d48fbcd14c6ae1a21266d4d198c0.png">. This shows that <i>C</i><sub><i>n</i></sub> is an <a href="http://en.wikipedia.org/wiki/Integer" title="Integer">integer</a>, which is not immediately obvious from the first formula given. This expression forms the basis for a <a href="http://en.wikipedia.org/wiki/Catalan_number#Second_proof">proof of the correctness of the formula</a>.</p>
+<p>The Catalan numbers satisfy the <a href="http://en.wikipedia.org/wiki/Recurrence_relation" title="Recurrence relation">recurrence relation</a></p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_0 = 1 \quad \mbox{and} \quad C_{n+1}=\sum_{i=0}^{n}C_i\,C_{n-i}\quad\text{for }n\ge 0;" src="./Catalan number - Wikipedia, the free encyclopedia_files/2f17435a71394ce667ab694b27341560.png"></dd>
+</dl>
+<p>moreover,</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n= \frac 1{n+1} \sum_{i=0}^n {n \choose i}^2." src="./Catalan number - Wikipedia, the free encyclopedia_files/8405ce6c89927fb246a87299499793b6.png"></dd>
+</dl>
+<p>This is because <img class="mwe-math-fallback-png-inline tex" alt="\tbinom{2n}{n} = \sum_{i=0}^n \tbinom{n}{i}^2," src="./Catalan number - Wikipedia, the free encyclopedia_files/7c97d24b84593af47cccdf05f708d578.png"> since choosing <i>n</i> numbers from a 2<i>n</i> set of numbers can be uniquely divided into 2 parts: choosing <i>i</i> numbers out of the first <i>n</i> numbers and then choosing <i>n</i>-<i>i</i> numbers from the remaining <i>n</i> numbers.</p>
+<p>They also satisfy:</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_0 = 1 \quad \mbox{and} \quad C_{n+1}=\frac{2(2n+1)}{n+2}C_n," src="./Catalan number - Wikipedia, the free encyclopedia_files/8a49332e4a46b3a2c7accec81160f5e3.png"></dd>
+</dl>
+<p>which can be a more efficient way to calculate them.</p>
+<p>Asymptotically, the Catalan numbers grow as</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n \sim \frac{4^n}{n^{3/2}\sqrt{\pi}}" src="./Catalan number - Wikipedia, the free encyclopedia_files/3f838aaa56c7ec71f80454fc181fea99.png"></dd>
+</dl>
+<p>in the sense that the quotient of the <i>n</i>th Catalan number and the expression on the right <a href="http://en.wikipedia.org/wiki/Limit_of_a_function" title="Limit of a function">tends towards</a> 1 as <i>n</i>&nbsp;→&nbsp;+∞. Some sources use just <img class="mwe-math-fallback-png-inline tex" alt="C_n \sim \frac{4^n}{n^{3/2}}" src="./Catalan number - Wikipedia, the free encyclopedia_files/526309758114ae09af5179fda9d210e7.png">.<sup id="cite_ref-1" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-1"><span>[</span>1<span>]</span></a></sup> (This can be proved by using <a href="http://en.wikipedia.org/wiki/Stirling%27s_approximation" title="Stirling&#39;s approximation">Stirling's approximation</a> for&nbsp;<i>n</i>!.)</p>
+<p>The only Catalan numbers <i>C</i><sub><i>n</i></sub> that are odd are those for which <i>n</i>&nbsp;=&nbsp;2<sup><i>k</i></sup>&nbsp;−&nbsp;1. All others are even.</p>
+<p>The Catalan numbers have an integral representation</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n=\int_0^4x^n\rho(x)dx" src="./Catalan number - Wikipedia, the free encyclopedia_files/fa04cfa2b97e157866b60697ea5a69b1.png"></dd>
+</dl>
+<p>where <img class="mwe-math-fallback-png-inline tex" alt="\rho(x)=\tfrac 1{2\pi}\sqrt{\tfrac{4-x}{x}}." src="./Catalan number - Wikipedia, the free encyclopedia_files/78b827c6ba624c73e9cc4bc9bcf71156.png"> This means that the Catalan numbers are a solution of the <a href="http://en.wikipedia.org/wiki/Hausdorff_moment_problem" title="Hausdorff moment problem">Hausdorff moment problem</a> on the interval [0, 4] instead of [0, 1]. The <a href="http://en.wikipedia.org/wiki/Orthogonal_polynomials" title="Orthogonal polynomials">orthogonal polynomials</a> having the weight function <img class="mwe-math-fallback-png-inline tex" alt="\rho(x)" src="./Catalan number - Wikipedia, the free encyclopedia_files/fba07d9db59e08eb6489a9ba5cb5e7b1.png"> on <img class="mwe-math-fallback-png-inline tex" alt="[0, 4]" src="./Catalan number - Wikipedia, the free encyclopedia_files/b839c0a45fd15dac69be08a4dbb0b7e3.png"> are</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="H_n(x)=\sum_{k=0}^n{n+k \choose n-k}(-x)^k." src="./Catalan number - Wikipedia, the free encyclopedia_files/e156d57f9625b230d07e8a06a6df8bf9.png"></dd>
+</dl>
+<h2><span class="mw-headline" id="Applications_in_combinatorics">Applications in combinatorics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=2" title="Edit section: Applications in combinatorics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are many counting problems in <a href="http://en.wikipedia.org/wiki/Combinatorics" title="Combinatorics">combinatorics</a> whose solution is given by the Catalan numbers. The book <i>Enumerative Combinatorics: Volume 2</i> by combinatorialist <a href="http://en.wikipedia.org/wiki/Richard_P._Stanley" title="Richard P. Stanley">Richard P. Stanley</a> contains a set of exercises which describe 66 different interpretations of the Catalan numbers. Following are some examples, with illustrations of the cases <i>C</i><sub>3</sub>&nbsp;=&nbsp;5 and <i>C</i><sub>4</sub>&nbsp;=&nbsp;14.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Dyck_lattice_D4.svg" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/220px-Dyck_lattice_D4.svg.png" width="220" height="305" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dyck_lattice_D4.svg/330px-Dyck_lattice_D4.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dyck_lattice_D4.svg/440px-Dyck_lattice_D4.svg.png 2x" data-file-width="1750" data-file-height="2425"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Dyck_lattice_D4.svg" class="internal" title="Enlarge"><img src="./Catalan number - Wikipedia, the free encyclopedia_files/magnify-clip.png" width="15" height="11" alt=""></a></div>
+Lattice of the 14 Dyck words of length 8 - <i>(</i> and <i>)</i> interpreted as <i>up</i> and <i>down</i></div>
+</div>
+</div>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of <b>Dyck words</b><sup id="cite_ref-2" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-2"><span>[</span>2<span>]</span></a></sup> of length 2<i>n</i>. A Dyck word is a <a href="http://en.wikipedia.org/wiki/String_(computer_science)" title="String (computer science)">string</a> consisting of <i>n</i> X's and <i>n</i> Y's such that no initial segment of the string has more Y's than X's (see also <a href="http://en.wikipedia.org/wiki/Dyck_language" title="Dyck language">Dyck language</a>). For example, the following are the Dyck words of length 6:</li>
+</ul>
+<div class="center"><big>XXXYYY &nbsp;&nbsp;&nbsp; XYXXYY &nbsp;&nbsp;&nbsp; XYXYXY &nbsp;&nbsp;&nbsp; XXYYXY &nbsp;&nbsp;&nbsp; XXYXYY.</big></div>
+<ul>
+<li>Re-interpreting the symbol X as an open <a href="http://en.wikipedia.org/wiki/Bracket#Parentheses" title="Bracket">parenthesis</a> and Y as a close parenthesis, <i>C</i><sub><i>n</i></sub> counts the number of expressions containing <i>n</i> pairs of parentheses which are correctly matched:</li>
+</ul>
+<div class="center"><big>((())) &nbsp;&nbsp;&nbsp; ()(()) &nbsp;&nbsp;&nbsp; ()()() &nbsp;&nbsp;&nbsp; (())() &nbsp;&nbsp;&nbsp; (()())</big></div>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of different ways <i>n</i>&nbsp;+&nbsp;1 factors can be completely <a href="http://en.wikipedia.org/wiki/Bracket" title="Bracket">parenthesized</a> (or the number of ways of <a href="http://en.wikipedia.org/wiki/Associativity" title="Associativity" class="mw-redirect">associating</a> <i>n</i> applications of a <a href="http://en.wikipedia.org/wiki/Binary_operator" title="Binary operator" class="mw-redirect">binary operator</a>). For <i>n</i>&nbsp;=&nbsp;3, for example, we have the following five different parenthesizations of four factors:</li>
+</ul>
+<div class="center"><big>((ab)c)d &nbsp;&nbsp;&nbsp; (a(bc))d &nbsp;&nbsp;&nbsp; (ab)(cd) &nbsp;&nbsp;&nbsp; a((bc)d) &nbsp;&nbsp;&nbsp; a(b(cd))</big></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Tamari_lattice,_trees.svg" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/220px-Tamari_lattice,_trees.svg.png" width="220" height="356" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Tamari_lattice%2C_trees.svg/330px-Tamari_lattice%2C_trees.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Tamari_lattice%2C_trees.svg/440px-Tamari_lattice%2C_trees.svg.png 2x" data-file-width="441" data-file-height="714"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Tamari_lattice,_trees.svg" class="internal" title="Enlarge"><img src="./Catalan number - Wikipedia, the free encyclopedia_files/magnify-clip.png" width="15" height="11" alt=""></a></div>
+The <a href="http://en.wikipedia.org/wiki/Associahedron" title="Associahedron">associahedron</a> of order 4 with the C<sub>4</sub>=14 full binary trees with 5 leaves</div>
+</div>
+</div>
+<ul>
+<li>Successive applications of a binary operator can be represented in terms of a full <a href="http://en.wikipedia.org/wiki/Binary_tree" title="Binary tree">binary tree</a>.<sup id="cite_ref-3" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-3"><span>[</span>3<span>]</span></a></sup> (A rooted binary tree is <i>full</i> if every vertex has either two children or no children.) It follows that <i>C</i><sub><i>n</i></sub> is the number of full binary <a href="http://en.wikipedia.org/wiki/Tree_(graph_theory)" title="Tree (graph theory)">trees</a> with <i>n</i>&nbsp;+&nbsp;1 leaves:</li>
+</ul>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Catalan_number_binary_tree_example.png" class="image"><img alt="Catalan number binary tree example.png" src="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan_number_binary_tree_example.png" width="496" height="92" data-file-width="496" data-file-height="92"></a></div>
+</div>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of non-isomorphic ordered trees with <i>n</i>+1 vertices. (An ordered tree is a rooted tree in which the children of each vertex are given a fixed left-to-right order.)<sup id="cite_ref-4" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-4"><span>[</span>4<span>]</span></a></sup></li>
+</ul>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of <b>monotonic paths</b> along the edges of a grid with <i>n</i> × <i>n</i> square cells, which do not pass above the diagonal. A monotonic path is one which starts in the lower left corner, finishes in the upper right corner, and consists entirely of edges pointing rightwards or upwards. Counting such paths is equivalent to counting Dyck words: X stands for "move right" and Y stands for "move up".</li>
+</ul>
+<p>The following diagrams show the case <i>n</i> = 4:</p>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Catalan_number_4x4_grid_example.svg" class="image"><img alt="Catalan number 4x4 grid example.svg" src="./Catalan number - Wikipedia, the free encyclopedia_files/450px-Catalan_number_4x4_grid_example.svg.png" width="450" height="228" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Catalan_number_4x4_grid_example.svg/675px-Catalan_number_4x4_grid_example.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Catalan_number_4x4_grid_example.svg/900px-Catalan_number_4x4_grid_example.svg.png 2x" data-file-width="690" data-file-height="350"></a></div>
+</div>
+<p>This can be succinctly represented by listing the Catalan elements by column height:<sup id="cite_ref-5" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<div style="text-align: center;">[0,0,0,0][0,0,0,1][0,0,0,2][0,0,1,1]</div>
+<div style="text-align: center;">[0,1,1,1] [0,0,1,2] [0,0,0,3] [0,1,1,2][0,0,2,2][0,0,1,3]</div>
+<div style="text-align: center;">[0,0,2,3][0,1,1,3] [0,1,2,2][0,1,2,3]</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Tamari_lattice,_hexagons.svg" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/220px-Tamari_lattice,_hexagons.svg.png" width="220" height="356" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tamari_lattice%2C_hexagons.svg/330px-Tamari_lattice%2C_hexagons.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tamari_lattice%2C_hexagons.svg/440px-Tamari_lattice%2C_hexagons.svg.png 2x" data-file-width="441" data-file-height="714"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Tamari_lattice,_hexagons.svg" class="internal" title="Enlarge"><img src="./Catalan number - Wikipedia, the free encyclopedia_files/magnify-clip.png" width="15" height="11" alt=""></a></div>
+The triangles correspond to nodes of the binary trees.</div>
+</div>
+</div>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of different ways a <a href="http://en.wikipedia.org/wiki/Convex_polygon" title="Convex polygon" class="mw-redirect">convex polygon</a> with <i>n</i>&nbsp;+&nbsp;2 sides can be cut into <a href="http://en.wikipedia.org/wiki/Triangle" title="Triangle">triangles</a> by connecting vertices with <a href="http://en.wikipedia.org/wiki/Straight_line" title="Straight line" class="mw-redirect">straight lines</a> (a form of <a href="http://en.wikipedia.org/wiki/Polygon_triangulation" title="Polygon triangulation">Polygon triangulation</a>). The following hexagons illustrate the case <i>n</i> = 4:</li>
+</ul>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Catalan-Hexagons-example.svg" class="image"><img alt="Catalan-Hexagons-example.svg" src="./Catalan number - Wikipedia, the free encyclopedia_files/400px-Catalan-Hexagons-example.svg.png" width="400" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Catalan-Hexagons-example.svg/600px-Catalan-Hexagons-example.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Catalan-Hexagons-example.svg/800px-Catalan-Hexagons-example.svg.png 2x" data-file-width="680" data-file-height="340"></a></div>
+</div>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of <a href="http://en.wikipedia.org/wiki/Stack_(data_structure)" title="Stack (data structure)" class="mw-redirect">stack</a>-sortable <a href="http://en.wikipedia.org/wiki/Permutation" title="Permutation">permutations</a> of {1, ..., <i>n</i>}. A permutation <i>w</i> is called <a href="http://en.wikipedia.org/wiki/Stack-sortable_permutation" title="Stack-sortable permutation">stack-sortable</a> if <i>S</i>(<i>w</i>) =&nbsp;(1,&nbsp;...,&nbsp;<i>n</i>), where <i>S</i>(<i>w</i>) is defined recursively as follows: write <i>w</i> =&nbsp;<i>unv</i> where <i>n</i> is the largest element in <i>w</i> and <i>u</i> and <i>v</i> are shorter sequences, and set <i>S</i>(<i>w</i>) =&nbsp;<i>S</i>(<i>u</i>)<i>S</i>(<i>v</i>)<i>n</i>, with <i>S</i> being the identity for one-element sequences. These are the permutations that <a href="http://en.wikipedia.org/wiki/Permutation_pattern" title="Permutation pattern">avoid the pattern</a>&nbsp;231.</li>
+</ul>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of permutations of {1,&nbsp;...,&nbsp;<i>n</i>} that avoid the pattern&nbsp;123 (or any of the other patterns of length 3); that is, the number of permutations with no three-term increasing subsequence. For <i>n</i> = 3, these permutations are 132, 213, 231, 312 and 321. For <i>n</i> = 4, they are 1432, 2143, 2413, 2431, 3142, 3214, 3241, 3412, 3421, 4132, 4213, 4231, 4312 and 4321.</li>
+</ul>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of <a href="http://en.wikipedia.org/wiki/Noncrossing_partition" title="Noncrossing partition">noncrossing partitions</a> of the set {1,&nbsp;...,&nbsp;<i>n</i>}. <a href="http://en.wikipedia.org/wiki/A_fortiori_argument" title="A fortiori argument"><i>A fortiori</i></a>, <i>C</i><sub><i>n</i></sub> never exceeds the <i>n</i>th <a href="http://en.wikipedia.org/wiki/Bell_number" title="Bell number">Bell number</a>. <i>C</i><sub><i>n</i></sub> is also the number of noncrossing partitions of the set {1,&nbsp;...,&nbsp;2<i>n</i>} in which every block is of size 2. The conjunction of these two facts may be used in a proof by <a href="http://en.wikipedia.org/wiki/Mathematical_induction" title="Mathematical induction">mathematical induction</a> that all of the <i>free</i> <a href="http://en.wikipedia.org/wiki/Cumulant" title="Cumulant">cumulants</a> of degree more than&nbsp;2 of the <a href="http://en.wikipedia.org/wiki/Wigner_semicircle_law" title="Wigner semicircle law" class="mw-redirect">Wigner semicircle law</a> are zero. This law is important in <a href="http://en.wikipedia.org/wiki/Free_probability" title="Free probability">free probability</a> theory and the theory of <a href="http://en.wikipedia.org/wiki/Random_matrices" title="Random matrices" class="mw-redirect">random matrices</a>.</li>
+</ul>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of ways to tile a stairstep shape of height <i>n</i> with <i>n</i> rectangles. The following figure illustrates the case <i>n</i>&nbsp;=&nbsp;4:</li>
+</ul>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Catalan_stairsteps_4.svg" class="image"><img alt="Catalan stairsteps 4.svg" src="./Catalan number - Wikipedia, the free encyclopedia_files/400px-Catalan_stairsteps_4.svg.png" width="400" height="106" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Catalan_stairsteps_4.svg/600px-Catalan_stairsteps_4.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/63/Catalan_stairsteps_4.svg/800px-Catalan_stairsteps_4.svg.png 2x" data-file-width="1700" data-file-height="450"></a></div>
+</div>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of <a href="http://en.wikipedia.org/wiki/Young_tableau#Tableaux" title="Young tableau">standard Young tableaux</a> whose diagram is a 2-by-<i>n</i> rectangle. In other words, it is the number of ways the numbers 1,&nbsp;2,&nbsp;...,&nbsp;2<i>n</i> can be arranged in a 2-by-<i>n</i> rectangle so that each row and each column is increasing. As such, the formula can be derived as a special case of the <a href="http://en.wikipedia.org/wiki/Young_tableau#Dimension_of_a_representation" title="Young tableau">hook-length formula</a>.</li>
+</ul>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of ways that the vertices of a convex 2<i>n</i>-gon can be paired so that the line segments joining paired vertices do not intersect. This is precisely the condition that guarantees that the paired edges can be identified (sewn together) to form a closed surface of genus zero (a topological 2-sphere).</li>
+</ul>
+<ul>
+<li><i>C</i><sub><i>n</i></sub> is the number of <a href="http://en.wikipedia.org/wiki/Semiorder" title="Semiorder">semiorders</a> on <i>n</i> unlabeled items.<sup id="cite_ref-6" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-6"><span>[</span>6<span>]</span></a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="Proof_of_the_formula">Proof of the formula</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=3" title="Edit section: Proof of the formula">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are several ways of explaining why the formula</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n = \frac{1}{n+1}{2n\choose n}" src="./Catalan number - Wikipedia, the free encyclopedia_files/2f7536241ecfa219d69ce879aee0b690.png"></dd>
+</dl>
+<p>solves the combinatorial problems listed above. The first proof below uses a <a href="http://en.wikipedia.org/wiki/Generating_function" title="Generating function">generating function</a>. The other proofs are examples of <a href="http://en.wikipedia.org/wiki/Bijective_proof" title="Bijective proof">bijective proofs</a>; they involve literally counting a collection of some kind of object to arrive at the correct formula.</p>
+<h3><span class="mw-headline" id="First_proof">First proof</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=4" title="Edit section: First proof">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>We first observe that all of the combinatorial problems listed above satisfy <a href="http://en.wikipedia.org/wiki/Johann_Andreas_Segner" title="Johann Andreas Segner">Segner's</a><sup id="cite_ref-7" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-7"><span>[</span>7<span>]</span></a></sup> <a href="http://en.wikipedia.org/wiki/Recurrence_relation" title="Recurrence relation">recurrence relation</a></p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_0 = 1 \quad \text{and} \quad C_{n+1}=\sum_{i=0}^n C_i\,C_{n-i}\quad\text{for }n\ge 0." src="./Catalan number - Wikipedia, the free encyclopedia_files/66eb80e884e2879e07f087b470d43463.png"></dd>
+</dl>
+<p>For example, every Dyck word <i>w</i> of length ≥ 2 can be written in a unique way in the form</p>
+<dl>
+<dd><i>w</i> = X<i>w</i><sub>1</sub>Y<i>w</i><sub>2</sub></dd>
+</dl>
+<p>with (possibly empty) Dyck words <i>w</i><sub>1</sub> and <i>w</i><sub>2</sub>.</p>
+<p>The <a href="http://en.wikipedia.org/wiki/Generating_function" title="Generating function">generating function</a> for the Catalan numbers is defined by</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="c(x)=\sum_{n=0}^\infty C_n x^n." src="./Catalan number - Wikipedia, the free encyclopedia_files/099acd90b5a02e418266e228dce42baa.png"></dd>
+</dl>
+<p>The two recurrence relations together can then be summarized in generating function form by the relation</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="c(x)=1+xc(x)^2;\," src="./Catalan number - Wikipedia, the free encyclopedia_files/386701a5cba2b7caa180c898763a489c.png"></dd>
+</dl>
+<p>in other words, this equation follows from the recurrence relations by expanding both sides into power series. On the one hand, the recurrence relations uniquely determine the Catalan numbers; on the other hand, the generating function solution</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="c(x) = \frac{1-\sqrt{1-4x}}{2x}=\frac{2}{1+\sqrt{1-4x}}" src="./Catalan number - Wikipedia, the free encyclopedia_files/83226e6c63eb2c218e28d8d59028044f.png"></dd>
+</dl>
+<p>has a power series at 0 and its coefficients must therefore be the Catalan numbers. The chosen solution satisfies the following condition.</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="\lim_{x \to 0^+} c(x) = C_0 = 1" src="./Catalan number - Wikipedia, the free encyclopedia_files/1ea5d6e0e8ff57c9942d30bfe55e5f80.png"></dd>
+</dl>
+<p>The other solution has a pole at 0 and this reasoning doesn't apply to it.</p>
+<p>The square root term can be expanded as a power series using the identity</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="\sqrt{1+y} = \sum_{n=0}^\infty {\frac12 \choose n} y^n = 1 - 2\sum_{n=1}^\infty {2n-2 \choose n-1} \left(\frac{-1}{4}\right)^n  \frac{y^n}{n}." src="./Catalan number - Wikipedia, the free encyclopedia_files/f1d968404473a8468853a6442a0e0c7c.png"></dd>
+</dl>
+<p>This is a special case of <a href="http://en.wikipedia.org/wiki/Binomial_theorem#Newton.27s_generalised_binomial_theorem" title="Binomial theorem">Newton's generalized binomial theorem</a>; as with the general theorem, it can be proved by computing derivatives to produce its Taylor series. Setting <i>y</i> = −4<i>x</i> and substituting this power series into the expression for <i>c(x)</i> and shifting the summation index <i>n</i> by 1, the expansion simplifies to</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="c(x) = \sum_{n=0}^\infty {2n \choose n} \frac{x^n}{n+1}." src="./Catalan number - Wikipedia, the free encyclopedia_files/a395c72c7f7e4fa240f3937e905b7e1d.png"></dd>
+</dl>
+<p>The coefficients are now the desired formula for <i>C</i><sub><i>n</i></sub>.</p>
+<p>Another way to get <i>c</i>(<i>x</i>) is to solve for <i>xc</i>(<i>x</i>) and observe that <img class="mwe-math-fallback-png-inline tex" alt="\int_0^x \! t^n \, dt" src="./Catalan number - Wikipedia, the free encyclopedia_files/13716c0214d563ab08d1a65eb3de60dd.png"> appears in each term of the power series.</p>
+<h3><span class="mw-headline" id="Second_proof">Second proof</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=5" title="Edit section: Second proof">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This proof depends on a trick known as <a href="http://en.wikipedia.org/wiki/Andr%C3%A9%27s_reflection_method" title="André&#39;s reflection method" class="mw-redirect">André's reflection method</a> (not to be confused with the <a href="http://en.wikipedia.org/wiki/Schwarz_reflection_principle" title="Schwarz reflection principle">Schwarz reflection principle</a> in <a href="http://en.wikipedia.org/wiki/Complex_analysis" title="Complex analysis">complex analysis</a>), which was originally used in connection with <a href="http://en.wikipedia.org/wiki/Bertrand%27s_ballot_theorem" title="Bertrand&#39;s ballot theorem">Bertrand's ballot theorem</a>. The reflection principle has been widely attributed to <a href="http://en.wikipedia.org/wiki/D%C3%A9sir%C3%A9_Andr%C3%A9" title="Désiré André">Désiré André</a>, but his method did not actually use reflections; and the reflection method is a variation due to Aebly and Mirimanoff.<sup id="cite_ref-8" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-8"><span>[</span>8<span>]</span></a></sup> It is most easily expressed in terms of the "monotonic paths which do not cross the diagonal" problem (see <a href="http://en.wikipedia.org/wiki/Catalan_number#Applications_in_combinatorics">above</a>).</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:308px;"><a href="http://en.wikipedia.org/wiki/File:Catalan_number_reflection_example.png" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan_number_reflection_example.png" width="306" height="164" class="thumbimage" data-file-width="306" data-file-height="164"></a>
+<div class="thumbcaption">Figure 1. The green portion of the path is flipped. The old grid is <i>n</i> x <i>n</i>. The new grid is (<i>n</i> - 1) x (<i>n</i> + 1).</div>
+</div>
+</div>
+<p>Suppose we are given a monotonic path in an <i>n</i> × <i>n</i> grid that <i>does</i> cross the diagonal. Find the first edge in the path that lies above the diagonal, and <i>flip</i> the portion of the path occurring after that edge, along a line parallel to the diagonal. Observe that now we have taken into account <i>k</i>+1 vertical edges and <i>k</i> horizontal edges for some <i>k</i> between 1 and <i>n</i>-1. This leaves <i>l</i>-1 vertical edges and <i>l</i> horizontal edges, where <i>l</i> + <i>k</i> = <i>n</i>. (In terms of Dyck words, we are starting with a sequence of <i>n</i> X's and <i>n</i> Y's which is <i>not</i> a Dyck word, and exchanging all X's with Y's after the first Y that violates the Dyck condition. At that first Y, there are <i>k</i> + 1 Y's and <i>k</i> X's for some <i>k</i> between 1 and <i>n</i> - 1.). By reflecting the rest of the vertical and horizontal edges, we will have <i>k</i> + 1 + <i>l</i> = <i>n</i> +1 vertical edges and <i>k</i> + <i>l</i> - 1 = <i>n</i> - 1 horizontal edges. The resulting path is a monotonic path in an (<i>n</i> − 1) × (<i>n</i> + 1) grid. Figure 1 illustrates this procedure; the green portion of the path is the portion being flipped.</p>
+<p>Since every monotonic path in the (<i>n</i> − 1) × (<i>n</i> + 1) grid is of length 2<i>n</i> and every such path involves <i>n</i> + 1 vertical edges in any order, the number of these paths is equal to</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="{2n\choose n+1}." src="./Catalan number - Wikipedia, the free encyclopedia_files/1e14f20e56aed6d51889917fb687bbf8.png"></dd>
+</dl>
+<p>Therefore, to calculate the number of monotonic <i>n</i> × <i>n</i> paths which do <i>not</i> cross the diagonal, we need to subtract this from the <i>total</i> number of monotonic <i>n</i> × <i>n</i> paths, so we finally obtain</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="{2n\choose n}-{2n\choose n-1}" src="./Catalan number - Wikipedia, the free encyclopedia_files/58d2e21c221b2e3b3876c4331600f7ca.png"></dd>
+</dl>
+<p>which is the <i>n</i>th Catalan number <i>C</i><sub><i>n</i></sub>.</p>
+<h3><span class="mw-headline" id="Third_proof">Third proof</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=6" title="Edit section: Third proof">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The following bijective proof, while being more involved than the previous one, provides a more natural explanation for the term <i>n</i>&nbsp;+&nbsp;1 appearing in the denominator of the formula for&nbsp;<i>C</i><sub><i>n</i></sub>. A generalized version of this proof can be found in a paper of Rukavicka Josef (2011).<sup id="cite_ref-9" class="reference"><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:146px;"><a href="http://en.wikipedia.org/wiki/File:Catalan_number_exceedance_example.png" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan_number_exceedance_example.png" width="144" height="143" class="thumbimage" data-file-width="144" data-file-height="143"></a>
+<div class="thumbcaption">Figure 2. A path with exceedance 5.</div>
+</div>
+</div>
+<p>Suppose we are given a monotonic path, which may happen to cross the diagonal. The <b>exceedance</b> of the path is defined to be the number of vertical edges which lie <i>above</i> the diagonal. For example, in Figure 2, the edges lying above the diagonal are marked in red, so the exceedance of the path is 5.</p>
+<p>Now, if we are given a monotonic path whose exceedance is not zero, then we may apply the following algorithm to construct a new path whose exceedance is one less than the one we started with.</p>
+<ul>
+<li>Starting from the bottom left, follow the path until it first travels above the diagonal.</li>
+<li>Continue to follow the path until it <i>touches</i> the diagonal again. Denote by <i>X</i> the first such edge that is reached.</li>
+<li>Swap the portion of the path occurring before <i>X</i> with the portion occurring after <i>X</i>.</li>
+</ul>
+<p>The following example should make this clearer. In Figure 3, the black dot indicates the point where the path first crosses the diagonal. The black edge is <i>X</i>, and we swap the red portion with the green portion to make a new path, shown in the second diagram.</p>
+<div class="center">
+<div class="thumb tnone">
+<div class="thumbinner" style="width:343px;"><a href="http://en.wikipedia.org/wiki/File:Catalan_number_swapping_example.png" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan_number_swapping_example.png" width="341" height="156" class="thumbimage" data-file-width="341" data-file-height="156"></a>
+<div class="thumbcaption">Figure 3. The green and red portions are being exchanged.</div>
+</div>
+</div>
+</div>
+<p>Notice that the exceedance has dropped from three to two. In fact, the algorithm will cause the exceedance to decrease by one, for any path that we feed it, because the first vertical step starting on the diagonal (at the point marked with a black dot) is the unique vertical edge that under the operation passes from above the diagonal to below it; all other vertical edges stay on the same side of the diagonal.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:311px;"><a href="http://en.wikipedia.org/wiki/File:Catalan_number_algorithm_table.png" class="image"><img alt="" src="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan_number_algorithm_table.png" width="309" height="338" class="thumbimage" data-file-width="309" data-file-height="338"></a>
+<div class="thumbcaption">Figure 4. All monotonic paths in a 3×3 grid, illustrating the exceedance-decreasing algorithm.</div>
+</div>
+</div>
+<p>It is also not difficult to see that this process is <i>reversible</i>: given any path <i>P</i> whose exceedance is less than <i>n</i>, there is exactly one path which yields <i>P</i> when the algorithm is applied to it. Indeed, the (black) edge <i>X</i>, which originally was the first horizontal step ending on the diagonal, has become the <i>last</i> horizontal step <i>starting</i> on the diagonal.</p>
+<p>This implies that the number of paths of exceedance <i>n</i> is equal to the number of paths of exceedance <i>n</i>&nbsp;−&nbsp;1, which is equal to the number of paths of exceedance <i>n</i>&nbsp;−&nbsp;2, and so on, down to zero. In other words, we have split up the set of <i>all</i> monotonic paths into <i>n</i> + 1 equally sized classes, corresponding to the possible exceedances between 0 and <i>n</i>. Since there are</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="{2n\choose n}" src="./Catalan number - Wikipedia, the free encyclopedia_files/c92da943df73dc077dbee5514376346a.png"></dd>
+</dl>
+<p>monotonic paths, we obtain the desired formula</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n = \frac{1}{n+1}{2n\choose n}." src="./Catalan number - Wikipedia, the free encyclopedia_files/cdd0aed4c95a95711a0dbe1bf2b627c8.png"></dd>
+</dl>
+<p>Figure 4 illustrates the situation for&nbsp;<i>n</i>&nbsp;=&nbsp;3. Each of the 20 possible monotonic paths appears somewhere in the table. The first column shows all paths of exceedance three, which lie entirely above the diagonal. The columns to the right show the result of successive applications of the algorithm, with the exceedance decreasing one unit at a time. There are five rows, that is,&nbsp;<i>C</i><sub>3</sub>&nbsp;=&nbsp;5.</p>
+<h3><span class="mw-headline" id="Fourth_proof">Fourth proof</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=7" title="Edit section: Fourth proof">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This proof uses the triangulation definition of Catalan numbers to establish a relation between <i>C<sub>n</sub></i> and <i>C</i><sub><i>n</i>+1</sub>. Given a polygon <i>P</i> with <i>n</i>+ 2 sides, first mark one of its sides as the base. If <i>P</i> is then triangulated, we can further choose and orient one of its 2<i>n</i>+1 edges. There are (4<i>n</i>+2)<i>C<sub>n</sub></i> such decorated triangulations. Now given a polygon <i>Q</i> with <i>n</i>+3 sides, again mark one of its sides as the base. If <i>Q</i> is triangulated, we can further mark one of the sides other than the base side. There are (<i>n</i>+2)<i>C</i><sub><i>n</i>+1</sub> such decorated triangulations. Then there is a simple bijection between these two kinds of decorated triangulations: We can either collapse the triangle in <i>Q</i> whose side is marked, or in reverse expand the oriented edge in <i>P</i> to a triangle and mark its new side. Thus</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="(4n+2)C_n = (n+2)C_{n+1}." src="./Catalan number - Wikipedia, the free encyclopedia_files/941ad0280c274dc246e67d1281fca3ba.png"></dd>
+</dl>
+<p>The binomial formula for <i>C<sub>n</sub></i> follows immediately from this relation and the initial condition <i>C</i><sub>1</sub> = 1.</p>
+<h3><span class="mw-headline" id="Fifth_proof">Fifth proof</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=8" title="Edit section: Fifth proof">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This proof is based on the <a href="http://en.wikipedia.org/wiki/Dyck_language" title="Dyck language">Dyck words</a> interpretation of the Catalan numbers, so <i>C</i><sub><i>n</i></sub> is the number of ways to correctly match <i>n</i> pairs of brackets. We denote a (possibly empty) <i>correct</i> string with <i>c</i> and its inverse (where "[" and "]" are exchanged) with <i>c</i><sup>+</sup>. Since any <i>c</i> can be uniquely decomposed into <i>c</i>&nbsp;=&nbsp;[&nbsp;<i>c</i><sub><i>1</i></sub>&nbsp;] <i>c</i><sub><i>2</i></sub>, summing over the possible spots to place the closing bracket immediately gives the recursive definition</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_0 = 1 \quad \text{and} \quad C_{n+1} = \sum_{i=0}^n C_i\,C_{n-i}\quad\text{for }n\ge 0." src="./Catalan number - Wikipedia, the free encyclopedia_files/66eb80e884e2879e07f087b470d43463.png"></dd>
+</dl>
+<p>Now let <i>b</i> stand for a <i>balanced</i> string of length 2<i>n</i>—that is, containing an equal number of "[" and "]"—and <img class="mwe-math-fallback-png-inline tex" alt="\textstyle B_n = {2n\choose n} = d_n C_n" src="./Catalan number - Wikipedia, the free encyclopedia_files/afceb0deadb72bd92c446ae8a5c666c8.png"> with some factor <i>d</i><sub><i>n</i></sub>&nbsp;≥&nbsp;1. As above, any balanced string can be uniquely decomposed into either [&nbsp;<i>c</i>&nbsp;]&nbsp;<i>b</i> or ]&nbsp;<i>c</i><sup>+</sup>&nbsp;[&nbsp;<i>b</i>, so</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="B_{n+1} = 2 \sum_{i=0}^n B_i C_{n-i}." src="./Catalan number - Wikipedia, the free encyclopedia_files/bf0c268d8533fbffae3a0aa34faccf98.png"></dd>
+</dl>
+<p>Also, any incorrect balanced string starts with <i>c</i>&nbsp;], so</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="B_{n+1} - C_{n+1} = \sum_{i=0}^n {2i+1 \choose i} C_{n-i} = \sum_{i=0}^n \frac{2i+1}{i+1} B_i C_{n-i}." src="./Catalan number - Wikipedia, the free encyclopedia_files/59e8bbf04daa3fa8ac66ec23de3fc4da.png"></dd>
+</dl>
+<p>Subtracting the above equations and using <i>B</i><sub><i>i</i></sub> = <i>d</i><sub><i>i</i></sub> <i>C</i><sub><i>i</i></sub> gives</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_{n+1} = 2 \sum_{i=0}^n d_i C_i C_{n-i} - \sum_{i=0}^n \frac{2i+1}{i+1} d_i C_i C_{n-i} = \sum_{i=0}^n \frac{d_i}{i+1} C_i C_{n-i}." src="./Catalan number - Wikipedia, the free encyclopedia_files/40c98c67b1e44274780811ba554ca429.png"></dd>
+</dl>
+<p>Comparing coefficients with the original recursion formula for <i>C</i><sub><i>n</i></sub> gives <i>d</i><sub><i>i</i></sub> = <i>i</i> + 1, so</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="C_n = \frac{1}{n+1}{2n\choose n}." src="./Catalan number - Wikipedia, the free encyclopedia_files/cdd0aed4c95a95711a0dbe1bf2b627c8.png"></dd>
+</dl>
+<h2><span class="mw-headline" id="Hankel_matrix">Hankel matrix</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=9" title="Edit section: Hankel matrix">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <i>n</i>×<i>n</i> <a href="http://en.wikipedia.org/wiki/Hankel_matrix" title="Hankel matrix">Hankel matrix</a> whose (<i>i</i>,&nbsp;<i>j</i>) entry is the Catalan number <i>C</i><sub><i>i</i>+<i>j</i>−2</sub> has <a href="http://en.wikipedia.org/wiki/Determinant" title="Determinant">determinant</a> 1, regardless of the value of <i>n</i>. For example, for <i>n</i> = 4 we have</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="\det\begin{bmatrix}1 &amp; 1 &amp; 2 &amp; 5 \\ 1 &amp; 2 &amp; 5 &amp; 14 \\ 2 &amp; 5 &amp; 14 &amp; 42 \\ 5 &amp; 14 &amp; 42 &amp; 132\end{bmatrix} = 1." src="./Catalan number - Wikipedia, the free encyclopedia_files/d26d37a2ef70ea301f27a76ea9febb9e.png"></dd>
+</dl>
+<p>Moreover, if the indexing is "shifted" so that the (<i>i</i>, <i>j</i>) entry is filled with the Catalan number <i>C</i><sub><i>i</i>+<i>j</i>−1</sub> then the determinant is still 1, regardless of the value of <i>n</i>. For example, for <i>n</i> = 4 we have</p>
+<dl>
+<dd><img class="mwe-math-fallback-png-inline tex" alt="\det\begin{bmatrix}1 &amp; 2 &amp; 5 &amp; 14 \\ 2 &amp; 5 &amp; 14 &amp; 42 \\ 5 &amp; 14 &amp; 42 &amp; 132 \\ 14 &amp; 42 &amp; 132 &amp; 429 \end{bmatrix} = 1." src="./Catalan number - Wikipedia, the free encyclopedia_files/829c64a1026582f04e6e123d1bb9a288.png"></dd>
+</dl>
+<p>Taken together, these two conditions uniquely define the Catalan numbers.</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=10" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The Catalan sequence was first described in the 18th century by <a href="http://en.wikipedia.org/wiki/Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a>, who was interested in the number of different ways of dividing a polygon into triangles. The sequence is named after <a href="http://en.wikipedia.org/wiki/Eug%C3%A8ne_Charles_Catalan" title="Eugène Charles Catalan">Eugène Charles Catalan</a>, who discovered the connection to parenthesized expressions during his exploration of the <a href="http://en.wikipedia.org/wiki/Towers_of_Hanoi" title="Towers of Hanoi" class="mw-redirect">Towers of Hanoi</a> puzzle. The counting trick for Dyck words was found by D. André in 1887.</p>
+<p>In 1988, it came to light in an <a href="http://en.wikipedia.org/wiki/Inner_Mongolia_University_of_Technology" title="Inner Mongolia University of Technology">Inner Mongolia University of Technology</a> publication that the Catalan number sequence had been used in <a href="http://en.wikipedia.org/wiki/China" title="China">China</a> by the Mongolian mathematician <a href="http://en.wikipedia.org/wiki/Minggantu" title="Minggantu" class="mw-redirect">Minggantu</a> by 1730. That is when he started to write his book <i>Ge Yuan Mi Lu Jie Fa</i>, which was completed by his student Chen Jixin in 1774 but published sixty years later. P.J. Larcombe (1999) sketched some of the features of the work of Minggantu, including the stimulus of Pierre Jartoux, who brought three infinite series to China early in the 1700s.</p>
+<p>For instance, Ming used the Catalan sequence to express series expansions of sin(2α) and sin(4α) in terms of sin(α).</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="multicol" role="presentation" style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:100%;">
+<tbody><tr>
+<td style="width: 33.33%;" align="left" valign="top">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Associahedron" title="Associahedron">Associahedron</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Bertrand%27s_ballot_theorem" title="Bertrand&#39;s ballot theorem">Bertrand's ballot theorem</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Binomial_transform" title="Binomial transform">Binomial transform</a></li>
+<li><a href="http://en.wikipedia.org/wiki/File:Wikiversity-logo-en.svg" class="image"><img alt="Wikiversity-logo-en.svg" src="./Catalan number - Wikipedia, the free encyclopedia_files/20px-Wikiversity-logo-en.svg.png" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/30px-Wikiversity-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/40px-Wikiversity-logo-en.svg.png 2x" data-file-width="1000" data-file-height="900"></a> <a href="http://en.wikiversity.org/wiki/Partition_related_number_triangles" class="extiw" title="v:Partition related number triangles">Partition related number triangles</a></li>
+</ul>
+</td>
+<td style="width: 33.33%;" align="left" valign="top">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Catalan%27s_problem" title="Catalan&#39;s problem">Catalan's problem</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Catalan%27s_triangle" title="Catalan&#39;s triangle">Catalan's triangle</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Catalan%E2%80%93Mersenne_number" title="Catalan–Mersenne number" class="mw-redirect">Catalan–Mersenne number</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fuss%E2%80%93Catalan_number" title="Fuss–Catalan number">Fuss–Catalan number</a></li>
+<li><a href="http://en.wikipedia.org/wiki/List_of_factorial_and_binomial_topics" title="List of factorial and binomial topics">List of factorial and binomial topics</a></li>
+</ul>
+</td>
+<td style="width: 33.33%;" align="left" valign="top">
+<div class="noprint tright portal" style="border:solid #aaa 1px;margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9;font-size:85%;line-height:110%;max-width:175px;">
+<tbody><tr valign="middle">
+<td style="text-align:center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="./Catalan number - Wikipedia, the free encyclopedia_files/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" data-file-width="128" data-file-height="128"></a></td>
+<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold;"><a href="http://en.wikipedia.org/wiki/Portal:Mathematics" title="Portal:Mathematics">Mathematics portal</a></td>
+</tr>
+</tbody></table>
+</div>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Lobb_numbers" title="Lobb numbers">Lobb numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Narayana_number" title="Narayana number">Narayana number</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Schr%C3%B6der%E2%80%93Hipparchus_number" title="Schröder–Hipparchus number">Schröder–Hipparchus number</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Tamari_lattice" title="Tamari lattice">Tamari lattice</a></li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=12" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-1"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><span class="citation book">Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L. (1990). "Dynamic Programming". <i>Introduction to Algorithms</i>. Cambridge, Massachusetts: The MIT Press. p.&nbsp;304. <a href="http://en.wikipedia.org/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Special:BookSources/0262031418" title="Special:BookSources/0262031418">0262031418</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.atitle=Introduction+to+Algorithms&amp;rft.au=Cormen%2C+Thomas+H.&amp;rft.aufirst=Thomas+H.&amp;rft.aulast=Cormen&amp;rft.au=Leiserson%2C+Charles+E.&amp;rft.au=Rivest%2C+Ronald+L.&amp;rft.btitle=Dynamic+Programming&amp;rft.date=1990&amp;rft.genre=bookitem&amp;rft.isbn=0262031418&amp;rft.pages=304&amp;rft.place=Cambridge%2C+Massachusetts&amp;rft.pub=The+MIT+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-2"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.findstat.org/DyckPaths">Equivalent definitions of Dyck paths</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-3"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.findstat.org/BinaryTrees">Equivalent definitions of binary trees</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-4"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">Stanley p.221 example (e)</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-5"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><span class="citation journal">ˇCrepinˇsek, Matej; Luka Mernik (2009). <a rel="nofollow" class="external text" href="http://www.ijpam.eu/contents/2009-56-4/11/11.pdf">"AN EFFICIENT REPRESENTATION FOR SOLVING CATALAN NUMBER RELATED PROBLEMS"</a>. <i>International Journal of Pure and Applied Mathematics</i> <b>56</b> (4).</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.atitle=AN+EFFICIENT+REPRESENTATION+FOR+SOLVING+CATALAN+NUMBER+RELATED+PROBLEMS&amp;rft.au=%CB%87Crepin%CB%87sek%2C+Matej&amp;rft.aufirst=Matej&amp;rft.aulast=%CB%87Crepin%CB%87sek&amp;rft.au=Luka+Mernik&amp;rft.date=2009&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.ijpam.eu%2Fcontents%2F2009-56-4%2F11%2F11.pdf&amp;rft.issue=4&amp;rft.jtitle=International+Journal+of+Pure+and+Applied+Mathematics&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=56" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-6"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><span id="CITEREFKimRoush1978" class="citation">Kim, K. H.; Roush, F. W. (1978), "Enumeration of isomorphism classes of semiorders", <i>Journal of Combinatorics, Information &amp;System Sciences</i> <b>3</b> (2): 58–61, <a href="http://en.wikipedia.org/wiki/Mathematical_Reviews" title="Mathematical Reviews">MR</a>&nbsp;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=538212">538212</a></span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.atitle=Enumeration+of+isomorphism+classes+of+semiorders&amp;rft.aufirst=K.+H.&amp;rft.au=Kim%2C+K.+H.&amp;rft.aulast=Kim&amp;rft.au=Roush%2C+F.+W.&amp;rft.date=1978&amp;rft.genre=article&amp;rft.issue=2&amp;rft.jtitle=Journal+of+Combinatorics%2C+Information+%26System+Sciences&amp;rft.mr=538212&amp;rft.pages=58-61&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=3" class="Z3988"><span style="display:none;">&nbsp;</span></span>.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-7"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">A. de Segner, Enumeratio modorum, quibus figurae planae rectilineae per diagonales dividuntur in triangula. <i>Novi commentarii academiae scientiarum Petropolitanae</i> <b>7</b> (1758/59) 203–209.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-8"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://webspace.ship.edu/msrenault/ballotproblem/monthly358-363-renault.pdf">Renault, Marc, Lost (and found) in translation: André's actual method and its application to the generalized ballot problem. Amer. Math. Monthly 115 (2008), no. 4, 358--363.</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="http://en.wikipedia.org/wiki/Catalan_number#cite_ref-9"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">Rukavicka Josef (2011), <i>On Generalized Dyck Paths, Electronic Journal of Combinatorics <a rel="nofollow" class="external text" href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v18i1p40/pdf">online</a></i></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/John_H._Conway" title="John H. Conway" class="mw-redirect">Conway</a> and <a href="http://en.wikipedia.org/wiki/Richard_K._Guy" title="Richard K. Guy">Guy</a> (1996) <i>The Book of Numbers</i>. New York: Copernicus, pp.&nbsp;96–106.</li>
+<li><span id="CITEREFGardner1988" class="citation"><a href="http://en.wikipedia.org/wiki/Martin_Gardner" title="Martin Gardner">Gardner, Martin</a> (1988), <i>Time Travel and Other Mathematical Bewilderments</i>, New York: W.H. Freeman and Company, pp.&nbsp;253–266 (Ch. 20), <a href="http://en.wikipedia.org/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Special:BookSources/0-7167-1924-X" title="Special:BookSources/0-7167-1924-X">0-7167-1924-X</a></span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.aufirst=Martin&amp;rft.au=Gardner%2C+Martin&amp;rft.aulast=Gardner&amp;rft.btitle=Time+Travel+and+Other+Mathematical+Bewilderments&amp;rft.date=1988&amp;rft.genre=book&amp;rft.isbn=0-7167-1924-X&amp;rft.pages=253-266+%28Ch.+20%29&amp;rft.place=New+York&amp;rft.pub=W.H.+Freeman+and+Company&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></li>
+<li><span id="CITEREFKoshy2008" class="citation">Koshy, Thomas (2008), <a rel="nofollow" class="external text" href="http://www.amazon.com/Thomas-Koshy/e/B001H6NZT4/ref=ntt_athr_dp_pel_1"><i>Catalan Numbers with Applications</i></a>, Oxford University Press, <a href="http://en.wikipedia.org/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Special:BookSources/0-19-533454-X" title="Special:BookSources/0-19-533454-X">0-19-533454-X</a></span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.aufirst=Thomas&amp;rft.au=Koshy%2C+Thomas&amp;rft.aulast=Koshy&amp;rft.btitle=Catalan+Numbers+with+Applications&amp;rft.date=2008&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.amazon.com%2FThomas-Koshy%2Fe%2FB001H6NZT4%2Fref%3Dntt_athr_dp_pel_1&amp;rft.isbn=0-19-533454-X&amp;rft.pub=Oxford+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></li>
+<li>Koshy, Thomas &amp; Zhenguang Gao (2011) "Some divisibility properties of Catalan numbers", <a href="http://en.wikipedia.org/wiki/Mathematical_Gazette" title="Mathematical Gazette" class="mw-redirect">Mathematical Gazette</a> 95:96–102.</li>
+<li>Larcombe, P.J. (1999) "<a rel="nofollow" class="external text" href="http://www.math.ucla.edu/~pak/lectures/Cat/Larcombe-The_18th_century_Chinese_discovery_of_the_Catalan_numbers.pdf">The 18th century Chinese discovery of the Catalan numbers</a>", <i><a href="http://en.wikipedia.org/wiki/Mathematical_Spectrum" title="Mathematical Spectrum" class="mw-redirect">Mathematical Spectrum</a></i> 32:5–7.</li>
+<li><span id="CITEREFStanley1999" class="citation">Stanley, Richard P. (1999), <a rel="nofollow" class="external text" href="http://www-math.mit.edu/~rstan/ec/"><i>Enumerative combinatorics. Vol. 2</i></a>, Cambridge Studies in Advanced Mathematics <b>62</b>, <a href="http://en.wikipedia.org/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="http://en.wikipedia.org/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Special:BookSources/978-0-521-56069-6" title="Special:BookSources/978-0-521-56069-6">978-0-521-56069-6</a>, <a href="http://en.wikipedia.org/wiki/Mathematical_Reviews" title="Mathematical Reviews">MR</a>&nbsp;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1676282">1676282</a></span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.aufirst=Richard+P.&amp;rft.aulast=Stanley&amp;rft.au=Stanley%2C+Richard+P.&amp;rft.btitle=Enumerative+combinatorics.+Vol.+2&amp;rft.date=1999&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww-math.mit.edu%2F~rstan%2Fec%2F&amp;rft.isbn=978-0-521-56069-6&amp;rft.mr=1676282&amp;rft.pub=Cambridge+University+Press&amp;rft.series=Cambridge+Studies+in+Advanced+Mathematics&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.volume=62" class="Z3988"><span style="display:none;">&nbsp;</span></span></li>
+<li><span id="CITEREFEgecioglu2009" class="citation">Egecioglu, Omer (2009), <a rel="nofollow" class="external text" href="http://www.cs.ucsb.edu/~omer/DOWNLOADABLE/catalan_hankel09.pdf"><i>A Catalan-Hankel Determinant Evaluation</i></a></span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.au=Egecioglu%2C+Omer&amp;rft.aufirst=Omer&amp;rft.aulast=Egecioglu&amp;rft.btitle=A+Catalan-Hankel+Determinant+Evaluation&amp;rft.date=2009&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.cs.ucsb.edu%2F~omer%2FDOWNLOADABLE%2Fcatalan_hankel09.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit&section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><span id="CITEREFStanley1998" class="citation">Stanley, Richard P. (1998), <a rel="nofollow" class="external text" href="http://www-math.mit.edu/~rstan/ec/catadd.pdf"><i>Catalan addendum to Enumerative Combinatorics, Volume 2</i></a> (PDF)</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACatalan+number&amp;rft.aufirst=Richard+P.&amp;rft.aulast=Stanley&amp;rft.au=Stanley%2C+Richard+P.&amp;rft.btitle=Catalan+addendum+to+Enumerative+Combinatorics%2C+Volume+2&amp;rft.date=1998&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww-math.mit.edu%2F~rstan%2Fec%2Fcatadd.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></li>
+<li><span class="citation mathworld" id="Reference-Mathworld-Catalan_Number"><a href="http://en.wikipedia.org/wiki/Eric_W._Weisstein" title="Eric W. Weisstein">Weisstein, Eric W.</a>, <a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/CatalanNumber.html">"Catalan Number"</a>, <i><a href="http://en.wikipedia.org/wiki/MathWorld" title="MathWorld">MathWorld</a></i>.</span></li>
+<li>Dickau, Robert M.: <a rel="nofollow" class="external text" href="http://mathforum.org/advanced/robertd/catalan.html">Catalan numbers</a> Further examples.</li>
+<li>Davis, Tom: <a rel="nofollow" class="external text" href="http://mathcircle.berkeley.edu/BMC6/pdf0607/catalan.pdf">Catalan numbers</a>. Still more examples.</li>
+<li>Schmidthammer, Jürgen: <a rel="nofollow" class="external text" href="http://www.bnv-bamberg.de/home/ba2636/catalanz.pdf">Catalan-Zahlen</a> Zulassungsarbeit zum Staatsexamen (PDF-File; 7,05 MB)</li>
+<li>"Equivalence of Three Catalan Number Interpretations" from The Wolfram Demonstrations Project <a rel="nofollow" class="external autonumber" href="http://demonstrations.wolfram.com/EquivalenceOfThreeCatalanNumberInterpretations/">[1]</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.findstat.org/DyckPaths">Dyck paths</a> and <a rel="nofollow" class="external text" href="http://www.findstat.org/BinaryTrees">binary trees</a> in the <a rel="nofollow" class="external text" href="http://www.findstat.org/">FindStat</a> database</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tbody><tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;" id="collapsibleTable0">
+<tbody><tr>
+<th scope="col" class="navbox-title" colspan="2"><span class="collapseButton">[<a id="collapseButton0" href="http://en.wikipedia.org/wiki/Catalan_number#">show</a>]</span>
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="http://en.wikipedia.org/wiki/Template:Classes_of_natural_numbers" title="Template:Classes of natural numbers"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="http://en.wikipedia.org/wiki/Template_talk:Classes_of_natural_numbers" title="Template talk:Classes of natural numbers"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="http://en.wikipedia.org/w/index.php?title=Template:Classes_of_natural_numbers&action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;">Classes of <a href="http://en.wikipedia.org/wiki/Natural_number" title="Natural number">natural numbers</a></div>
+</th>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Exponentiation" title="Exponentiation">Powers</a> and<br>
+related numbers</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Achilles_number" title="Achilles number">Achilles numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Power_of_two" title="Power of two">Powers of two</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Power_of_10" title="Power of 10">Powers of 10</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Square_number" title="Square number">Squares</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cube_(algebra)" title="Cube (algebra)">Cubes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fourth_power" title="Fourth power">Fourth powers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fifth_power_(algebra)" title="Fifth power (algebra)">Fifth powers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Perfect_power" title="Perfect power">Perfect powers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Powerful_number" title="Powerful number">Powerful numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Prime_power" title="Prime power">Prime powers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Of the form<br>
+<i>a</i> × 2<sup><i>b</i></sup> ± 1</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Cullen_number" title="Cullen number">Cullen numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Double_Mersenne_number" title="Double Mersenne number">Double Mersenne numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fermat_number" title="Fermat number">Fermat numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Mersenne_prime" title="Mersenne prime">Mersenne numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Proth_number" title="Proth number">Proth numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Thabit_number" title="Thabit number">Thabit numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Woodall_number" title="Woodall number">Woodall numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">other polynomial<br>
+numbers</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Carol_number" title="Carol number">Carol numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Hilbert_number" title="Hilbert number">Hilbert numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Idoneal_number" title="Idoneal number">Idoneal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Kynea_number" title="Kynea number">Kynea numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Leyland_number" title="Leyland number">Leyland numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lucky_numbers_of_Euler" title="Lucky numbers of Euler">Lucky numbers of Euler</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Repunit" title="Repunit">Repunits</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Recursion" title="Recursion">Recursively</a> defined<br>
+numbers</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Jacobsthal_number" title="Jacobsthal number">Jacobsthal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Leonardo_number" title="Leonardo number">Leonardo numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pell_number" title="Pell number">Pell numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Perrin_number" title="Perrin number">Perrin numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Possessing a<br>
+specific set<br>
+of other numbers</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Kn%C3%B6del_number" title="Knödel number">Knödel numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Riesel_number" title="Riesel number">Riesel numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sierpinski_number" title="Sierpinski number">Sierpinski numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Expressible via<br>
+specific sums</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Nonhypotenuse_number" title="Nonhypotenuse number">Nonhypotenuse numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Polite_number" title="Polite number">Polite numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Practical_number" title="Practical number">Practical numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Primary_pseudoperfect_number" title="Primary pseudoperfect number">Primary pseudoperfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ulam_number" title="Ulam number">Ulam numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Wolstenholme_number" title="Wolstenholme number">Wolstenholme numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Generated<br>
+via a <a href="http://en.wikipedia.org/wiki/Sieve_theory" title="Sieve theory">sieve</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Lucky_number" title="Lucky number">Lucky numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Code" title="Code">Code</a> related</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Meertens_number" title="Meertens number">Meertens numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Figurate_number" title="Figurate number">Figurate numbers</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tbody><tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Two-dimensional_space" title="Two-dimensional space">2-dimensional</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tbody><tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Centered_polygonal_number" title="Centered polygonal number">centered</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Centered_triangular_number" title="Centered triangular number">Centered triangular numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_square_number" title="Centered square number">Centered square numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_pentagonal_number" title="Centered pentagonal number">Centered pentagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_hexagonal_number" title="Centered hexagonal number">Centered hexagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_heptagonal_number" title="Centered heptagonal number">Centered heptagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_octagonal_number" title="Centered octagonal number">Centered octagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_nonagonal_number" title="Centered nonagonal number">Centered nonagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_decagonal_number" title="Centered decagonal number">Centered decagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Star_number" title="Star number">Star numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Polygonal_number" title="Polygonal number">non-centered</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Triangular_number" title="Triangular number">Triangular numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pentagonal_number" title="Pentagonal number">Pentagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Hexagonal_number" title="Hexagonal number">Hexagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Heptagonal_number" title="Heptagonal number">Heptagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Octagonal_number" title="Octagonal number">Octagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Nonagonal_number" title="Nonagonal number">Nonagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Decagonal_number" title="Decagonal number">Decagonal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Dodecagonal_number" title="Dodecagonal number">Dodecagonal numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Three-dimensional_space" title="Three-dimensional space">3-dimensional</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tbody><tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Centered_polyhedral_number" title="Centered polyhedral number">centered</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Centered_tetrahedral_number" title="Centered tetrahedral number">Centered tetrahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_cube_number" title="Centered cube number">Centered cube numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_octahedral_number" title="Centered octahedral number">Centered octahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_dodecahedral_number" title="Centered dodecahedral number">Centered dodecahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Centered_icosahedral_number" title="Centered icosahedral number">Centered icosahedral numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Polyhedral_number" title="Polyhedral number" class="mw-redirect">non-centered</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Tetrahedral_number" title="Tetrahedral number">Tetrahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Octahedral_number" title="Octahedral number">Octahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Dodecahedral_number" title="Dodecahedral number">Dodecahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Icosahedral_number" title="Icosahedral number">Icosahedral numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Stella_octangula_number" title="Stella octangula number">Stella octangula numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Pyramidal_number" title="Pyramidal number">pyramidal</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Square_pyramidal_number" title="Square pyramidal number">Square pyramidal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pentagonal_pyramidal_number" title="Pentagonal pyramidal number">Pentagonal pyramidal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Hexagonal_pyramidal_number" title="Hexagonal pyramidal number">Hexagonal pyramidal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Heptagonal_pyramidal_number" title="Heptagonal pyramidal number">Heptagonal pyramidal numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="http://en.wikipedia.org/wiki/Four-dimensional_space" title="Four-dimensional space">4-dimensional</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tbody><tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">centered</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Centered_pentachoric_number" title="Centered pentachoric number">Centered pentachoric numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Squared_triangular_number" title="Squared triangular number">Squared triangular numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">non-centered</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Pentatope_number" title="Pentatope number">Pentatope numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Pseudoprime" title="Pseudoprime">Pseudoprimes</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Carmichael_number" title="Carmichael number">Carmichael numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Catalan_pseudoprime" title="Catalan pseudoprime">Catalan pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Elliptic_pseudoprime" title="Elliptic pseudoprime">Elliptic pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Euler_pseudoprime" title="Euler pseudoprime">Euler pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Euler%E2%80%93Jacobi_pseudoprime" title="Euler–Jacobi pseudoprime">Euler–Jacobi pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fermat_pseudoprime" title="Fermat pseudoprime">Fermat pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Frobenius_pseudoprime" title="Frobenius pseudoprime">Frobenius pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lucas_pseudoprime" title="Lucas pseudoprime">Lucas pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Somer%E2%80%93Lucas_pseudoprime" title="Somer–Lucas pseudoprime">Somer–Lucas pseudoprimes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Strong_pseudoprime" title="Strong pseudoprime">Strong pseudoprimes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Combinatorial<br>
+numbers</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Bell_number" title="Bell number">Bell numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cake_number" title="Cake number">Cake numbers</a></li>
+<li><strong class="selflink">Catalan numbers</strong></li>
+<li><a href="http://en.wikipedia.org/wiki/Dedekind_number" title="Dedekind number">Dedekind numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Delannoy_number" title="Delannoy number">Delannoy numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fuss%E2%80%93Catalan_number" title="Fuss–Catalan number">Fuss–Catalan numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lazy_caterer%27s_sequence" title="Lazy caterer&#39;s sequence">Lazy caterer's sequence</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lobb_numbers" title="Lobb numbers">Lobb numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Motzkin_number" title="Motzkin number">Motzkin numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Narayana_number" title="Narayana number">Narayana numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ordered_Bell_number" title="Ordered Bell number">Ordered Bell numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Schr%C3%B6der_number" title="Schröder number">Schröder numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Schr%C3%B6der%E2%80%93Hipparchus_number" title="Schröder–Hipparchus number">Schröder–Hipparchus numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Arithmetic_function" title="Arithmetic function">Arithmetic functions</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tbody><tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">By properties of <a href="http://en.wikipedia.org/wiki/Divisor_function" title="Divisor function">σ(<i>n</i>)</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Abundant_number" title="Abundant number">Abundant numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Almost_perfect_number" title="Almost perfect number">Almost perfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Arithmetic_number" title="Arithmetic number">Arithmetic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Colossally_abundant_number" title="Colossally abundant number">Colossally abundant numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Descartes_number" title="Descartes number">Descartes numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Hemiperfect_number" title="Hemiperfect number">Hemiperfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Highly_abundant_number" title="Highly abundant number">Highly abundant numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Hyperperfect_number" title="Hyperperfect number">Hyperperfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Multiply_perfect_number" title="Multiply perfect number">Multiply perfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Perfect_number" title="Perfect number">Perfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Primitive_abundant_number" title="Primitive abundant number">Primitive abundant numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Quasiperfect_number" title="Quasiperfect number">Quasiperfect numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Refactorable_number" title="Refactorable number">Refactorable numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sublime_number" title="Sublime number">Sublime numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Superabundant_number" title="Superabundant number">Superabundant numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Superior_highly_composite_number" title="Superior highly composite number">Superior highly composite numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Superperfect_number" title="Superperfect number">Superperfect numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">By properties of <a href="http://en.wikipedia.org/wiki/Arithmetic_function#.CE.A9.28n.29.2C_.CF.89.28n.29.2C_.CE.BDp.28n.29_.E2.80.93_prime_power_decomposition" title="Arithmetic function">Ω(<i>n</i>)</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Almost_prime" title="Almost prime">Almost primes</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Semiprime" title="Semiprime">Semiprimes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">By properties of <a href="http://en.wikipedia.org/wiki/Euler%27s_totient_function" title="Euler&#39;s totient function">φ(<i>n</i>)</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Highly_cototient_number" title="Highly cototient number">Highly cototient numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Highly_totient_number" title="Highly totient number">Highly totient numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Noncototient" title="Noncototient">Noncototients</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Nontotient" title="Nontotient">Nontotients</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Perfect_totient_number" title="Perfect totient number">Perfect totient numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sparsely_totient_number" title="Sparsely totient number">Sparsely totient numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">By properties of <a href="http://en.wikipedia.org/wiki/Divisor_function#Definition" title="Divisor function">s(<i>n</i>)</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Amicable_numbers" title="Amicable numbers">Amicable numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Betrothed_numbers" title="Betrothed numbers">Betrothed numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Deficient_number" title="Deficient number">Deficient numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Semiperfect_number" title="Semiperfect number">Semiperfect numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+<div>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Euclid_number" title="Euclid number">Euclid numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Fortunate_number" title="Fortunate number">Fortunate numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Dividing a quotient</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Wieferich_number" title="Wieferich number" class="mw-redirect">Wieferich numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Wilson_prime#Wilson_numbers" title="Wilson prime">Wilson numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Other <a href="http://en.wikipedia.org/wiki/Prime_factor" title="Prime factor">prime factor</a><br>
+or <a href="http://en.wikipedia.org/wiki/Divisor" title="Divisor">divisor</a> related<br>
+numbers</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Blum_integer" title="Blum integer">Blum integers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Woods_number" title="Erdős–Woods number">Erdős–Woods numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Friendly_number" title="Friendly number">Friendly numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Frugal_number" title="Frugal number">Frugal numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Giuga_number" title="Giuga number">Giuga numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Harmonic_divisor_number" title="Harmonic divisor number">Harmonic divisor numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Highly_composite_number" title="Highly composite number">Highly composite numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lucas%E2%80%93Carmichael_number" title="Lucas–Carmichael number">Lucas–Carmichael numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pronic_number" title="Pronic number">Pronic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Regular_number" title="Regular number">Regular numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Rough_number" title="Rough number">Rough numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Smooth_number" title="Smooth number">Smooth numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sociable_number" title="Sociable number">Sociable numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sphenic_number" title="Sphenic number">Sphenic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/St%C3%B8rmer_number" title="Størmer number">Størmer numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Super-Poulet_number" title="Super-Poulet number">Super-Poulet numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Zeisel_number" title="Zeisel number">Zeisel numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="http://en.wikipedia.org/wiki/Recreational_mathematics" title="Recreational mathematics">Recreational<br>
+mathematics</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tbody><tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Base-dependent<br>
+numbers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Automorphic_number" title="Automorphic number">Automorphic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Digit-reassembly_number" title="Digit-reassembly number">Digit-reassembly numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Dudeney_number" title="Dudeney number">Dudeney numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Equidigital_number" title="Equidigital number">Equidigital numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Extravagant_number" title="Extravagant number">Extravagant numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Factorion" title="Factorion">Factorions</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Friedman_number" title="Friedman number">Friedman numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Happy_number" title="Happy number">Happy numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Harshad_number" title="Harshad number">Harshad numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Kaprekar_number" title="Kaprekar number">Kaprekar numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Keith_number" title="Keith number">Keith numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Lychrel_number" title="Lychrel number">Lychrel numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Missing-digit_sum" title="Missing-digit sum">Missing-digit sums</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Narcissistic_number" title="Narcissistic number">Narcissistic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Palindromic_number" title="Palindromic number">Palindromic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pandigital_number" title="Pandigital number">Pandigital numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Parasitic_number" title="Parasitic number">Parasitic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pernicious_number" title="Pernicious number">Pernicious numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Polydivisible_number" title="Polydivisible number">Polydivisible numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Primeval_number" title="Primeval number">Primeval numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Repdigit" title="Repdigit">Repdigits</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Repunit" title="Repunit">Repunits</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Self_number" title="Self number">Self numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Self-descriptive_number" title="Self-descriptive number">Self-descriptive numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Smarandache%E2%80%93Wellin_number" title="Smarandache–Wellin number">Smarandache–Wellin numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Strictly_non-palindromic_number" title="Strictly non-palindromic number">Strictly non-palindromic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Strobogrammatic_number" title="Strobogrammatic number">Strobogrammatic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sum-product_number" title="Sum-product number">Sum-product numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Transposable_integer" title="Transposable integer">Transposable integers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Trimorphic_number" title="Trimorphic number">Trimorphic numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Undulating_number" title="Undulating number">Undulating numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Vampire_number" title="Vampire number">Vampire numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+<div>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Aronson%27s_sequence" title="Aronson&#39;s sequence">Aronson's sequence</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ban_number" title="Ban number">Ban numbers</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pancake_sorting" title="Pancake sorting">Pancake numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1107
+CPU time usage: 1.192 seconds
+Real time usage: 1.353 seconds
+Preprocessor visited node count: 3595/1000000
+Preprocessor generated node count: 7460/1500000
+Post‐expand include size: 109233/2048000 bytes
+Template argument size: 7828/2048000 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 2/500
+Lua time usage: 0.086/10.000 seconds
+Lua memory usage: 2.84 MB/50 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:216488-0!*!0!!en!4!*!math=0 and timestamp 20140525032454 and revision id 609633910
+ -->
+<noscript>&lt;img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /&gt;</noscript></div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://en.wikipedia.org/w/index.php?title=Catalan_number&oldid=609633910">http://en.wikipedia.org/w/index.php?title=Catalan_number&amp;oldid=609633910</a>"					</div>
+													<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="http://en.wikipedia.org/wiki/Category:Integer_sequences" title="Category:Integer sequences">Integer sequences</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Factorial_and_binomial_topics" title="Category:Factorial and binomial topics">Factorial and binomial topics</a></li><li><a href="http://en.wikipedia.org/wiki/Category:Enumerative_combinatorics" title="Category:Enumerative combinatorics">Enumerative combinatorics</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="http://en.wikipedia.org/wiki/Category:Articles_containing_proofs" title="Category:Articles containing proofs">Articles containing proofs</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="http://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Catalan+number&type=signup">Create account</a></li><li id="pt-login"><a href="http://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Catalan+number" title="You&#39;re encouraged to log in; however, it&#39;s not mandatory. [alt-shift-o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan number - Wikipedia, the free encyclopedia.htm" title="View the content page [alt-shift-c]" accesskey="c">Article</a></span></li>
+															<li id="ca-talk"><span><a href="http://en.wikipedia.org/wiki/Talk:Catalan_number" title="Discussion about the content page [alt-shift-t]" accesskey="t">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+						<h3 id="mw-vector-current-variant">
+													</h3>
+
+						<h3 id="p-variants-label" tabindex="0"><span>Variants</span><a href="http://en.wikipedia.org/wiki/Catalan_number#" tabindex="-1"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="./Catalan number - Wikipedia, the free encyclopedia_files/Catalan number - Wikipedia, the free encyclopedia.htm">Read</a></span></li>
+															<li id="ca-edit"><span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=edit" title="You can edit this page. Please use the preview button before saving [alt-shift-e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=history" title="Past versions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label" tabindex="0"><span>Actions</span><a href="http://en.wikipedia.org/wiki/Catalan_number#" tabindex="-1"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="http://en.wikipedia.org/w/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search Wikipedia [alt-shift-f]" accesskey="f" id="searchInput" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if one exists" id="searchButton" class="searchButton">								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="http://en.wikipedia.org/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal first" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="http://en.wikipedia.org/wiki/Main_Page" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li>
+													<li id="n-contents"><a href="http://en.wikipedia.org/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+													<li id="n-featuredcontent"><a href="http://en.wikipedia.org/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+													<li id="n-currentevents"><a href="http://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+													<li id="n-randompage"><a href="http://en.wikipedia.org/wiki/Special:Random" title="Load a random article [alt-shift-x]" accesskey="x">Random article</a></li>
+													<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+													<li id="n-shoplink"><a href="http://shop.wikimedia.org/" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-help"><a href="http://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+													<li id="n-aboutsite"><a href="http://en.wikipedia.org/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+													<li id="n-portal"><a href="http://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+													<li id="n-recentchanges"><a href="http://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+													<li id="n-contactpage"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="http://en.wikipedia.org/wiki/Special:WhatLinksHere/Catalan_number" title="List of all English Wikipedia pages containing links to this page [alt-shift-j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Catalan_number" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li>
+													<li id="t-upload"><a href="http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [alt-shift-u]" accesskey="u">Upload file</a></li>
+													<li id="t-specialpages"><a href="http://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li>
+													<li id="t-permalink"><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&oldid=609633910" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&action=info">Page information</a></li>
+													<li id="t-wikibase"><a href="http://www.wikidata.org/wiki/Q270513" title="Link to connected data repository item [alt-shift-g]" accesskey="g">Data item</a></li>
+						<li id="t-cite"><a href="http://en.wikipedia.org/w/index.php?title=Special:Cite&page=Catalan_number&id=609633910" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+
+			<div class="body">
+									<ul>
+													<li id="coll-create_a_book"><a href="http://en.wikipedia.org/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Catalan+number">Create a book</a></li>
+													<li id="coll-download-as-rl"><a href="http://en.wikipedia.org/w/index.php?title=Special:Book&bookcmd=render_article&arttitle=Catalan+number&oldid=609633910&writer=rl">Download as PDF</a></li>
+													<li id="t-print"><a href="http://en.wikipedia.org/w/index.php?title=Catalan_number&printable=yes" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"><span class="uls-settings-trigger" tabindex="0" role="button" aria-haspopup="true" original-title="Language settings"></span>
+			<h3 id="p-lang-label">Languages</h3>
+
+			<div class="body">
+									<ul>
+													<li class="interlanguage-link interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%B9%D8%AF%D8%AF_%D9%83%D8%A7%D8%AA%D8%A7%D9%84%D8%A7%D9%86" title="عدد كاتالان – Arabic" lang="ar" hreflang="ar">العربية</a></li>
+													<li class="interlanguage-link interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Nombres_de_Catalan" title="Nombres de Catalan – Catalan" lang="ca" hreflang="ca">Català</a></li>
+													<li class="interlanguage-link interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Catalanova_%C4%8D%C3%ADsla" title="Catalanova čísla – Czech" lang="cs" hreflang="cs">Čeština</a></li>
+													<li class="interlanguage-link interwiki-de"><a href="http://de.wikipedia.org/wiki/Catalan-Zahl" title="Catalan-Zahl – German" lang="de" hreflang="de">Deutsch</a></li>
+													<li class="interlanguage-link interwiki-es"><a href="http://es.wikipedia.org/wiki/N%C3%BAmeros_de_Catalan" title="Números de Catalan – Spanish" lang="es" hreflang="es">Español</a></li>
+													<li class="interlanguage-link interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Katalana_nombro" title="Katalana nombro – Esperanto" lang="eo" hreflang="eo">Esperanto</a></li>
+													<li class="interlanguage-link interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF_%DA%A9%D8%A7%D8%AA%D8%A7%D9%84%D8%A7%D9%86" title="اعداد کاتالان – Persian" lang="fa" hreflang="fa">فارسی</a></li>
+													<li class="interlanguage-link interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Nombre_de_Catalan" title="Nombre de Catalan – French" lang="fr" hreflang="fr">Français</a></li>
+													<li class="interlanguage-link interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%B9%B4%ED%83%88%EB%9E%91_%EC%88%98" title="카탈랑 수 – Korean" lang="ko" hreflang="ko">한국어</a></li>
+													<li class="interlanguage-link interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%88%E0%A4%9F%E0%A4%BE%E0%A4%B2%E0%A4%A8_%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE" title="कैटालन संख्या – Hindi" lang="hi" hreflang="hi">हिन्दी</a></li>
+													<li class="interlanguage-link interwiki-it"><a href="http://it.wikipedia.org/wiki/Numero_di_Catalan" title="Numero di Catalan – Italian" lang="it" hreflang="it">Italiano</a></li>
+													<li class="interlanguage-link interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%A7%D7%98%D7%9C%D7%9F" title="מספר קטלן – Hebrew" lang="he" hreflang="he">עברית</a></li>
+													<li class="interlanguage-link interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Katal%C4%81na_skait%C4%BCi" title="Katalāna skaitļi – Latvian" lang="lv" hreflang="lv">Latviešu</a></li>
+													<li class="interlanguage-link interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Catalan-sz%C3%A1mok" title="Catalan-számok – Hungarian" lang="hu" hreflang="hu">Magyar</a></li>
+													<li class="interlanguage-link interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Catalan-getal" title="Catalan-getal – Dutch" lang="nl" hreflang="nl">Nederlands</a></li>
+													<li class="interlanguage-link interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%BF%E3%83%A9%E3%83%B3%E6%95%B0" title="カタラン数 – Japanese" lang="ja" hreflang="ja">日本語</a></li>
+													<li class="interlanguage-link interwiki-no"><a href="http://no.wikipedia.org/wiki/Catalantall" title="Catalantall – Norwegian (bokmål)" lang="no" hreflang="no">Norsk bokmål</a></li>
+													<li class="interlanguage-link interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Liczby_Catalana" title="Liczby Catalana – Polish" lang="pl" hreflang="pl">Polski</a></li>
+													<li class="interlanguage-link interwiki-pt"><a href="http://pt.wikipedia.org/wiki/N%C3%BAmeros_de_Catalan" title="Números de Catalan – Portuguese" lang="pt" hreflang="pt">Português</a></li>
+													<li class="interlanguage-link interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%B0" title="Числа Каталана – Russian" lang="ru" hreflang="ru">Русский</a></li>
+													<li class="interlanguage-link interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Numrat_e_Catalanit" title="Numrat e Catalanit – Albanian" lang="sq" hreflang="sq">Shqip</a></li>
+													<li class="interlanguage-link interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Catalanovo_%C4%8D%C3%ADslo" title="Catalanovo číslo – Slovak" lang="sk" hreflang="sk">Slovenčina</a></li>
+													<li class="interlanguage-link interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Catalanovo_%C5%A1tevilo" title="Catalanovo število – Slovenian" lang="sl" hreflang="sl">Slovenščina</a></li>
+													<li class="interlanguage-link interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8_%D0%B1%D1%80%D0%BE%D1%98%D0%B5%D0%B2%D0%B8" title="Каталанови бројеви – Serbian" lang="sr" hreflang="sr">Српски / srpski</a></li>
+													<li class="interlanguage-link interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Catalanin_luku" title="Catalanin luku – Finnish" lang="fi" hreflang="fi">Suomi</a></li>
+													<li class="interlanguage-link interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Catalantal" title="Catalantal – Swedish" lang="sv" hreflang="sv">Svenska</a></li>
+													<li class="interlanguage-link interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%87%E0%AE%9F%E0%AE%B2%E0%AE%BE%E0%AE%A9%E0%AF%8D_%E0%AE%8E%E0%AE%A3%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D" title="கேடலான் எண்கள் – Tamil" lang="ta" hreflang="ta">தமிழ்</a></li>
+													<li class="interlanguage-link interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B9%81%E0%B8%84%E0%B8%97%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%99" title="จำนวนแคทาแลน – Thai" lang="th" hreflang="th">ไทย</a></li>
+													<li class="interlanguage-link interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Catalan_say%C4%B1lar%C4%B1" title="Catalan sayıları – Turkish" lang="tr" hreflang="tr">Türkçe</a></li>
+													<li class="interlanguage-link interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%BE_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D0%B0" title="Число Каталана – Ukrainian" lang="uk" hreflang="uk">Українська</a></li>
+													<li class="interlanguage-link interwiki-ur"><a href="http://ur.wikipedia.org/wiki/Catalan_number" title="Catalan number – Urdu" lang="ur" hreflang="ur">اردو</a></li>
+													<li class="interlanguage-link interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%8D%A1%E5%A1%94%E5%85%B0%E6%95%B0" title="卡塔兰数 – Chinese" lang="zh" hreflang="zh">中文</a></li>
+													
+											</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a action="edit" href="http://www.wikidata.org/wiki/Q270513#sitelinks-wikipedia" text="Edit links" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 22 May 2014 at 06:53.<br></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="http://wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="http://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Catalan_number" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="http://wikimediafoundation.org/"><img src="./Catalan number - Wikipedia, the free encyclopedia_files/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="http://www.mediawiki.org/"><img src="./Catalan number - Wikipedia, the free encyclopedia_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.math.mathjax.enabler","ext.cite","mediawiki.toc","mobile.desktop","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","mw.MwEmbedSupport.style","mmv.bootstrap.autostart","ext.gettingstarted.assignToken","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage"],null,true);
+}</script>
+<script src="./Catalan number - Wikipedia, the free encyclopedia_files/load(2).php"></script><div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":301,"wgHostname":"mw1020"});
+}</script>
+	
+
+	</body></html>

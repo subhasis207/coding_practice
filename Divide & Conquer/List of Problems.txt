@@ -1,0 +1,13 @@
+1.Binary Search
+2.Binary Search Tree
+3.Mergesort
+   3.1. Inversion
+4.Quicksort
+5.Min-Max Problem
+6.Maximum Sub-array Problem
+
+
+
+It is effective for problems which can be divided into distinct sub-problems.If the subproblem coincide, it gives a huge overhead.
+   
+   
