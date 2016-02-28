@@ -16,7 +16,7 @@ void subsets(int *A,int n,int i,int *data,int r,int index)
 	{
 		for(j=0;j<r;j++)
 			printf("%d ",data[j]);
-		printf("n");
+		printf("\n");
 		return;
 	}
 	if (i>=n)
@@ -38,7 +38,7 @@ int main()
 	int n = sizeof(arr)/sizeof(arr[0]);
 	for(i=1;i<=n;i++)
 	{
-		printf("Subsets of size %d ...n",i);
+		printf("Subsets of size %d ...\n",i);
 		printCombination(arr, n, i);
 	}
 
